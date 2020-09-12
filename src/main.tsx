@@ -1,13 +1,13 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
+import {render } from "react-dom";
+import {Provider} from "react-redux";
+import configureStore from "./store/configureStore" ;
 
-class App extends React.Component{
-    render(){
-        return(
-            <div>
-                う
-            </div>
-        )
-    }
-}
-ReactDOM.render(<App/> , document.querySelector("#root"));
+const store = configureStore();
+
+render(
+    <Provider store={store}>
+        うんこ
+    </Provider>,
+    document.getElementById('root')
+)
