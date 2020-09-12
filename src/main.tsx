@@ -7,7 +7,7 @@ const store = configureStore();
 
 render(
     <Provider store={store}>
-        うんこ
+        うんこ2
     </Provider>,
     document.getElementById('root')
 )
