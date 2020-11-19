@@ -7,7 +7,7 @@ export class Profile extends React.Component{
         return(
            <React.Fragment>
                <NavigationBar/>
-               prf
+               <img src="./resource/contentBar.svg"/>
                <div className="bgClass"></div>
            </React.Fragment>)
     }
