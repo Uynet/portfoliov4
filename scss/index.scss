@@ -26,3 +26,13 @@ body {
   flex-direction: row;
   justify-content: flex-end;
 }
+
+.contentBar{
+  font-size:30px;
+  padding-left:30px;
+  color:white;
+  font-family: vdl-logona, sans-serif;
+  background-size:contain;
+  background-image: url("./resource/contentBar.svg");
+  background-repeat: no-repeat;
+}
