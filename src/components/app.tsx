@@ -1,14 +1,21 @@
 import * as React from "react";
 import "../../scss/index.scss"
-import { NavigationBar } from "./navigationBar";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Home } from "./home";
+import { Profile } from "./profile";
+import { Works } from "./works";
+import { Contact } from "./contact";
 
 export class App extends React.Component{
     render(){
         return(
            <React.Fragment>
-               <NavigationBar/>
-               <div className="bgClass"></div>
-           </React.Fragment>
-        )
+                <Router>
+                    <Route exact path="/" component = {Home}/>
+                    <Route exact path="/profile" component = {Profile}/>
+                    <Route exact path="/works" component = {Works}/>
+                    <Route exact path="/contact" component = {Contact}/>
+                </Router>
+           </React.Fragment>)
     }
 }

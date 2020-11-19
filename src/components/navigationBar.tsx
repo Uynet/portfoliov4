@@ -1,5 +1,6 @@
 import * as React from "react";
 import "../../scss/index.scss"
+import { MenuContent } from "./menuContent";
 
 export class NavigationBar extends React.Component{
     render(){
@@ -14,22 +15,10 @@ export class NavigationBar extends React.Component{
                 <div className="navigationContentBox">
                    {
                        menues.map(menu=>{
-                           return <div key={menu} className="navigationContent">{menu}</div>;
+                           return <MenuContent key={menu} id={menu}/>
                        })
                    }
                </div>
-               </div>
-               <div style={{
-                   margin:40
-               }}>
-               <span style={{
-                   background:"rgba(0,0,0,0.6)",
-                   fontSize:50,
-                   padding:15,
-                    color:"#fff"
-                   }}>
-                       ゆいネット
-               </span >
                </div>
            </React.Fragment>
         )
