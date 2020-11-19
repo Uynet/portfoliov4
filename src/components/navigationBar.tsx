@@ -19,6 +19,18 @@ export class NavigationBar extends React.Component{
                    }
                </div>
                </div>
+               <div style={{
+                   margin:40
+               }}>
+               <span style={{
+                   background:"rgba(0,0,0,0.6)",
+                   fontSize:50,
+                   padding:15,
+                    color:"#fff"
+                   }}>
+                       ゆいネット
+               </span >
+               </div>
            </React.Fragment>
         )
     }
