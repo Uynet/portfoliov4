@@ -1,3 +1,9 @@
-html {
-  background: #ff0;
+body {
+  margin: 0;
+  padding: 0;
+}
+.bgClass{
+  height:100vh;
+  background-image: url("./resource/bg.png");
+  background-size: cover;
 }
