@@ -6,4 +6,19 @@ body {
   height:100vh;
   background-image: url("./resource/bg.png");
   background-size: cover;
+  z-index: 30;
+}
+.navigationBar{
+  vertical-align: middle;
+  background:white;
+}
+.navigationContent{
+  font-family: vdl-v7marugothic, sans-serif;
+  margin:15px 9px;
+}
+.navigationContentBox{
+  margin-right:45px;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
