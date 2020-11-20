@@ -23,14 +23,17 @@ export class Profile extends React.Component{
                </div>
                </div>
 
-               
                <div className="contentArea">
                     <div className="card">
                         <div className="wrapper">
-                            <div>
-                            <div className="cardTitle">ゆいちゃん</div>
-                            <div className="cardContent">ドーナツが好き</div>
-                            <div className="cardContent">イラスト:<a href="http://owarino.xyz" className="link">やいぎ</a>先生</div>
+                            <div className="description">
+                                <span className="cardTitle">ゆいちゃん</span>
+                                <span className="cardTitleSub">について</span>
+                                <div className="cardContent">ドーナツが好き。
+                                14歳　性格が雑　よくスタバにいる
+                                <div> いつも輪郭線に色がついている。 </div>
+                                </div>
+                                <div className="credit">イラスト:<a href="http://owarino.xyz" className="link">やいぎ</a>先生</div>
                             </div>
                             <div className="fig">
                                 <img src="./resource/uychan1.png" width={"150px"}/>

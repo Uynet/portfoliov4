@@ -14,7 +14,7 @@ export class NavigationBar extends React.Component{
            <React.Fragment>
                <div className="navigationBar">
                 <Link to="/">
-                    <div className="navigationTop">ゆいネット</div>
+                    <div className="navigationTop">uynet.work</div>
                 </Link>
                 <div className="navigationContentBox">
                    {
