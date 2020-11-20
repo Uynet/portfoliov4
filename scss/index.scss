@@ -1,13 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+  background: #eee;
 }
 a {
   text-decoration: none;
 }
 
 .bg {
-  height: 100vh;
+  height: 100vw;
   width: 100vw;
   background-image: url("./resource/bg.png");
   background-size: cover;

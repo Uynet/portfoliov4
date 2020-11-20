@@ -1,15 +1,42 @@
 .headline {
   background: #fff;
-  height: 200px;
 }
-.contentArea {
-  background: #eee;
-  height: 100vh;
+.headlineContent {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.biographyArea {
+  padding-left: 30px;
 }
 .profileIcon {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  background-image: url("./resource/profileIcon.png");
+  width: 25vw;
+  height: 25vw;
+  background: #fff;
+  max-width: 250px;
+  max-height: 250px;
+  background: #fff;
+  transform: translate(0%, -50%);
   background-size: contain;
+  border: 6px solid #fff;
+}
+.rect {
+  background: #444;
+}
+.name {
+  color: #333;
+  font-size: 34px;
+  font-weight: 900;
+  font-family: vdl-logona, sans-serif;
+}
+.contentArea {
+  margin: 30px;
+}
+.card {
+  margin: auto;
+  border-radius: 15px;
+  width: 80%;
+  background: #fff;
 }

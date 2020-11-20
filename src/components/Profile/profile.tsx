@@ -13,10 +13,22 @@ export class Profile extends React.Component{
                </div>
                
                <div className="headline">
-                   <div className="profileIcon"></div>
+               <div className="headlineContent">
+                   <img className="profileIcon" src="./resource/profileIcon.png"></img>
+                   <div className="biographyArea">
+                        <div className="name">uynet</div>
+                        <div className="biography">1996/12/19生まれ。東京工業大学情報工学科卒業。曲作ったりゲーム作ったりデザインするなど活動は多岐に渡る。
+                        </div>
+                    </div>
                </div>
+               </div>
+
                
-               <div className="contentArea"></div>
+               <div className="contentArea">
+                    <div className="card">
+                    ゆいちゃんについて
+                    </div>
+               </div>
 
            </React.Fragment>)
     }
