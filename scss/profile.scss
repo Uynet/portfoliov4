@@ -1,4 +1,15 @@
-.headline{
-    background:#fff;
-    height:200px;
+.headline {
+  background: #fff;
+  height: 200px;
+}
+.contentArea {
+  background: #eee;
+  height: 100vh;
+}
+.profileIcon {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-image: url("./resource/profileIcon.png");
+  background-size: contain;
 }

@@ -11,7 +11,13 @@ export class Profile extends React.Component{
                <div className="header">
                     <div className="contentBar">Profile</div>
                </div>
-               <div className="headline">uynet</div>
+               
+               <div className="headline">
+                   <div className="profileIcon"></div>
+               </div>
+               
+               <div className="contentArea"></div>
+
            </React.Fragment>)
     }
 }
