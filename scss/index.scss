@@ -2,45 +2,56 @@ body {
   margin: 0;
   padding: 0;
 }
-.bg{
-  position:absolute;
-  top:0px;
-  left:0px;
-  height:100vh;
-  width:100vw;
+a {
+  text-decoration: none;
+}
+
+.bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
   background-image: url("./resource/bg.png");
   background-size: cover;
   z-index: -1;
 }
-.header{
-  height:300px;
-  width:100vw;
+.header {
+  height: 300px;
+  width: 100vw;
   background-image: url("./resource/bg.png");
   background-size: cover;
   z-index: -1;
 }
-.navigationBar{
+.navigationBar {
   vertical-align: middle;
-  background:white;
+  background: white;
 }
-.navigationContent{
+.navigationContent {
+  font-size: 18px;
   font-family: vdl-v7marugothic, sans-serif;
-  margin:15px 9px;
+  margin: 15px 9px;
 }
-.navigationContentBox{
-  margin-right:45px;
-  display:flex;
+.navigationContentCurrent {
+  font-size: 18px;
+  font-family: vdl-v7marugothic, sans-serif;
+  margin: 15px 9px;
+}
+
+.navigationContentBox {
+  margin-right: 45px;
+  display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-.contentBar{
-  font-size:30px;
-  padding-left:30px;
-  color:white;
+.contentBar {
+  font-size: 30px;
+  padding-left: 30px;
+  color: white;
   font-family: vdl-logona, sans-serif;
   font-weight: 900;
-  background-size:contain;
+  background-size: contain;
   background-image: url("./resource/contentBar.svg");
   background-repeat: no-repeat;
 }

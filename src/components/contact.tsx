@@ -8,7 +8,7 @@ export class Contact extends React.Component{
            <React.Fragment>
                <NavigationBar/>
                ctk
-               <div className="bgClass"></div>
+               <div className="bg"></div>
            </React.Fragment>)
     }
 }

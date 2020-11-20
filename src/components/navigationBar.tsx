@@ -7,7 +7,7 @@ export class NavigationBar extends React.Component{
         const menues = [
             "profile",
             "works", 
-            "content",
+            "contact",
         ]
         return(
            <React.Fragment>
