@@ -14,7 +14,7 @@ export class Profile extends React.Component{
                
                <div className="headline">
                <div className="headlineContent">
-                   <img className="profileIcon" src="./resource/profileIcon.png"></img>
+                   <img className="profileIcon" src="./resource/profileIcon.png" height="auto"></img>
                    <div className="biographyArea">
                         <div className="name">uynet</div>
                         <div className="biography">1996/12/19生まれ。東京工業大学情報工学科卒業。曲作ったりゲーム作ったりデザインするなど活動は多岐に渡る。
@@ -26,7 +26,16 @@ export class Profile extends React.Component{
                
                <div className="contentArea">
                     <div className="card">
-                    ゆいちゃんについて
+                        <div className="wrapper">
+                            <div>
+                            <div className="cardTitle">ゆいちゃん</div>
+                            <div className="cardContent">ドーナツが好き</div>
+                            <div className="cardContent">イラスト:<a href="http://owarino.xyz">やいぎ</a>先生</div>
+                            </div>
+                            <div className="fig">
+                                <img src="./resource/uychan1.png" width={"100vw"}/>
+                            </div>
+                        </div>
                     </div>
                </div>
 

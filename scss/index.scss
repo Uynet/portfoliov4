@@ -5,6 +5,12 @@ body {
 }
 a {
   text-decoration: none;
+  color: #000;
+}
+
+@font-face {
+  font-family: "MISHIMISHI-BLOCK";
+  src: url("./resource/font/MISHIMISHI-BLOCK.otf") format("opentype");
 }
 
 .bg {
@@ -24,23 +30,38 @@ a {
 .navigationBar {
   vertical-align: middle;
   background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 9px 0px;
 }
 .navigationContent {
+  margin: 0px 9px;
   font-size: 18px;
   font-family: vdl-v7marugothic, sans-serif;
-  margin: 15px 9px;
+}
+.navigationContent :hover {
+  margin: 0px 9px;
+  font-size: 18px;
+  background: #eee;
+  color: #f00;
 }
 .navigationContentCurrent {
+  margin: 0px 9px;
   font-size: 18px;
   font-family: vdl-v7marugothic, sans-serif;
-  margin: 15px 9px;
+  font-weight: 800;
+  color: #ff5084;
 }
-
 .navigationContentBox {
   margin-right: 45px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+.navigationTop {
+  margin-left: 30px;
+  font-family: vdl-logona, sans-serif;
+  font-size: 18px;
 }
 
 .contentBar {

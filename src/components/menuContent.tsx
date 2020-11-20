@@ -18,11 +18,11 @@ export class MenuContent extends React.Component<MenuProps>{
 
         return(
            <React.Fragment>
-               <div className={className}>
                    <Link to = {link}>
+               <div className={className}>
                 {this.props.id}
-                </Link>
                </div>
+                </Link>
            </React.Fragment>)
     }
 }
