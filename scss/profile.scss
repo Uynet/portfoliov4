@@ -3,7 +3,8 @@
   height: 150px;
 }
 .headlineContent {
-  width: 80vw;
+  width: 80%;
+  height: 100%;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -14,8 +15,8 @@
 .profileIcon {
   border-radius: 50%;
   background: #fff;
-  max-width: 250px;
-  max-height: 250px;
+  width: 250px;
+  height: 250px;
   background: #fff;
   transform: translate(0%, -50%);
   background-size: contain;
@@ -48,5 +49,6 @@
   font-weight: bold;
 }
 .fig {
-  right: 0px;
+  margin: auto;
+  height: 250px;
 }

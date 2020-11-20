@@ -30,10 +30,10 @@ export class Profile extends React.Component{
                             <div>
                             <div className="cardTitle">ゆいちゃん</div>
                             <div className="cardContent">ドーナツが好き</div>
-                            <div className="cardContent">イラスト:<a href="http://owarino.xyz">やいぎ</a>先生</div>
+                            <div className="cardContent">イラスト:<a href="http://owarino.xyz" className="link">やいぎ</a>先生</div>
                             </div>
                             <div className="fig">
-                                <img src="./resource/uychan1.png" width={"100vw"}/>
+                                <img src="./resource/uychan1.png" width={"150px"}/>
                             </div>
                         </div>
                     </div>

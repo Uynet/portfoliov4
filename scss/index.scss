@@ -2,10 +2,19 @@ body {
   margin: 0;
   padding: 0;
   background: #eee;
+  color: #200050;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 a {
   text-decoration: none;
   color: #000;
+}
+.link {
+  color: #5080f0;
+  font-weight: bold;
 }
 
 @font-face {
