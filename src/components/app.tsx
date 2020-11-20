@@ -2,7 +2,7 @@ import * as React from "react";
 import "../../scss/index.scss"
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Home } from "./home";
-import { Profile } from "./profile";
+import { Profile } from "./Profile/profile";
 import { Works } from "./works";
 import { Contact } from "./contact";
 

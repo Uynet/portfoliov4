@@ -19,7 +19,7 @@ export class Home extends React.Component{
                        ゆいネット
                </span >
                </div>
-               <div className="bgClass"></div>
+               <div className="bg"></div>
            </React.Fragment>)
     }
 }
