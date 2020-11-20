@@ -3,7 +3,7 @@ import "../../scss/index.scss"
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Home } from "./home";
 import { Profile } from "./Profile/profile";
-import { Works } from "./works";
+import { Works } from "./Works/works";
 import { Contact } from "./contact";
 
 export class App extends React.Component{

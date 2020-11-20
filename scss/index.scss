@@ -11,7 +11,7 @@ body::-webkit-scrollbar {
 }
 a {
   text-decoration: none;
-  color: #000;
+  color: #200050;
 }
 .link {
   color: #5080f0;
@@ -38,12 +38,14 @@ a {
   z-index: -1;
 }
 .navigationBar {
+  position: sticky;
+  top: 0px;
   vertical-align: middle;
   background: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 9px 0px;
-  border-bottom: solid 1px #eee;
+  border-bottom: solid 1px #ddd;
 }
 .navigationContent {
   margin: 0px 9px;
