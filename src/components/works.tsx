@@ -7,8 +7,9 @@ export class Works extends React.Component{
         return(
            <React.Fragment>
                <NavigationBar/>
-               wks
-               <div className="bgClass"></div>
+               <div className="header">
+                    <div className="contentBar">Works</div>
+               </div>
            </React.Fragment>)
     }
 }
