@@ -7,7 +7,6 @@ import contentData from"./contentData";
 
 export class Works extends React.Component{
     render(){
-        console.log(contentData)
         return(
            <React.Fragment>
                <NavigationBar/>
@@ -17,9 +16,9 @@ export class Works extends React.Component{
                
                <div className="headline">
                     <div className="headlineContent">
-                    <div className="contentHead">
-                        作品
-                    </div>
+                         <div className="contentHead">
+                              作品
+                         </div>
                     </div>
                </div>
 

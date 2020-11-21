@@ -5,6 +5,7 @@ import { Home } from "./home";
 import { Profile } from "./Profile/profile";
 import { Works } from "./Works/works";
 import { Contact } from "./contact";
+import { WorkPage } from "./Works/workPage";
 
 export class App extends React.Component{
     render(){
@@ -14,6 +15,7 @@ export class App extends React.Component{
                     <Route exact path="/" component = {Home}/>
                     <Route exact path="/profile" component = {Profile}/>
                     <Route exact path="/works" component = {Works}/>
+                    <Route path="/works/:work" component={WorkPage}/>
                     <Route exact path="/contact" component = {Contact}/>
                 </Router>
            </React.Fragment>)
