@@ -84,27 +84,28 @@
 .contentAreaBox {
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
 }
 
 .workContentCard {
-  border-radius: 10px;
+  border-radius: 5%;
   background: #fff;
   background-size: cover;
   border: solid 1px #ddd;
-  margin: 15px;
-  min-width: 250px;
-  min-height: 250px;
+  margin: 0.9vw;
+  min-width: 6em;
   position: relative;
 }
 
 .workContentThmbnail {
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 5% 5% 0px 0px;
   width: 100%;
   background-size: cover;
   background-position: center;
 }
 .workContentTitle {
-  padding: 5px;
+  font-family: sans-serif;
+  padding: 0.5em;
   font-weight: 900;
 }

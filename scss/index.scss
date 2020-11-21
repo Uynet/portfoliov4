@@ -52,19 +52,14 @@ a {
   margin: 0px 9px;
   font-size: 18px;
   font-family: vdl-v7marugothic, sans-serif;
-}
-.navigationContent :hover {
-  margin: 0px 9px;
-  font-size: 18px;
-  background: #eee;
-  color: #f00;
+  width: 3em;
 }
 .navigationContentCurrent {
   margin: 0px 9px;
   font-size: 18px;
   font-family: vdl-v7marugothic, sans-serif;
-  font-weight: 800;
   color: #ff5084;
+  width: 3em;
 }
 .navigationContentBox {
   margin-right: 45px;
