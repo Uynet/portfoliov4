@@ -1,0 +1,110 @@
+.headline {
+  position: relative;
+  background: #fff;
+  height: 150px;
+}
+.headlineContent {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.biographyArea {
+  padding-left: 30px;
+}
+.profileIcon {
+  border-radius: 50%;
+  background: #fff;
+  width: 250px;
+  height: 250px;
+  background: #fff;
+  transform: translate(0%, -50%);
+  background-size: contain;
+  border: 6px solid #fff;
+}
+.rect {
+  background: #444;
+}
+.name {
+  font-size: 34px;
+  font-weight: 900;
+  font-family: vdl-logona, sans-serif;
+}
+.contentArea {
+  margin: auto;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: 100px;
+}
+.cardTitle {
+  font-family: vdl-logona, sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+}
+.cardTitleSub {
+  font-family: vdl-logona, sans-serif;
+  font-size: 18px;
+}
+.fig {
+  margin: auto;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.description {
+  margin-left: auto;
+  margin-right: auto;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  position: relative;
+}
+.credit {
+  position: absolute;
+  bottom: 0px;
+}
+
+.contentHead {
+  width: 6em;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: vdl-logona, sans-serif;
+  padding-top: 1.9rem;
+  font-size: 1.9rem;
+  font-weight: bold;
+  background-image: url("./resource/uychanHead.png");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.contentAreaBox {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.workContentCard {
+  border-radius: 10px;
+  background: #fff;
+  background-size: cover;
+  border: solid 1px #ddd;
+  margin: 15px;
+  min-width: 250px;
+  min-height: 250px;
+  position: relative;
+}
+
+.workContentThmbnail {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.workContentTitle {
+  padding: 5px;
+  font-weight: 900;
+}
