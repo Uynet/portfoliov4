@@ -93,3 +93,31 @@ a {
   width: 80%;
   background: #fff;
 }
+
+.headline {
+  position: relative;
+  background: #fff;
+  height: 150px;
+}
+.headlineContent {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.contentHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: vdl-logona, sans-serif;
+  width: 6em;
+
+  font-size: 1.9rem;
+  font-weight: bold;
+  background-image: url("./resource/uychanHead.png");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
