@@ -2,6 +2,10 @@ export interface ContentData{
     id:string;
     title:string;
     date:string;
-    imgpath:string;
+    thmbnail:string;
+    media:{
+        img?:string[] | string
+        video?:string[] | string
+    }
     categoryTag?:string;
 }
