@@ -32,12 +32,24 @@
   padding: 0.5rem 0em;
   font-weight: 900;
 }
-
 .workPageThmbnail {
-  height: 40vh;
+  display: block;
+  margin: auto;
+  max-height: 80vh;
   background-size: cover;
   background-position: center;
+  max-width: 100%;
+}
+.workPageTitle {
+  font-family: sans-serif;
+  padding: 0.5rem 0em;
+  font-weight: 900;
+}
+.workPageCard {
+  background: #fff;
+  max-width: 70vw;
+  margin: auto;
 }
 .workPageBox {
-  background: #fff;
+  margin: auto;
 }

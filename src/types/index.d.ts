@@ -8,4 +8,9 @@ export interface ContentData{
         video?:string[] | string
     }
     categoryTag?:string;
+    description:string;
+    links?:{
+        name:string
+        url:string
+    }
 }

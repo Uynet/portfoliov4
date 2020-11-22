@@ -6,8 +6,9 @@ const contentData:ContentData[] = [
         date:"2020/10/25",
         thmbnail: "/resource/works/stella.png",
         media: {
-            img : "/resource/works/stella.png"
-        }
+            img : ["/resource/works/stella.png"]
+        },
+        description:"アルバム"
     },
     {
         id:"kawasemi",
@@ -15,8 +16,9 @@ const contentData:ContentData[] = [
         date:"2018/3/25",
         thmbnail: "/resource/works/kawasemiThmb.png",
         media: {
-            img : "/resource/works/kawasemi2.png"
-        }
+            img : ["/resource/works/kawasemi2.png"]
+        },
+        description:"アルバム"
     },
     {
         id:"ninja",
@@ -24,8 +26,9 @@ const contentData:ContentData[] = [
         date:"2017/12/26",
         thmbnail: "/resource/works/ninjaThmb.png",
         media: {
-            img : "/resource/works/stella.png"
-        }
+            img : ["/resource/works/stella.png"]
+        },
+        description:"アルバム"
     },
     {
         id:"uyblog2",
@@ -33,8 +36,9 @@ const contentData:ContentData[] = [
         date:"2019/10/25",
         thmbnail: "/resource/works/portfolioThmb.png",
         media: {
-            img : "/resource/works/stella.png"
-        }
+            img : ["/resource/works/stella.png"]
+        },
+        description:"アルバム"
     },
 ]
 

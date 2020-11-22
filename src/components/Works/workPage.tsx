@@ -9,14 +9,19 @@ export class WorkPage extends React.Component<RouteProps>{
     render(){
         const id = this.props.match.params.work;
         const data = contentData.filter(e => (e.id === id))[0];
-        const { title , date , thmbnail: imgpath} = data
+        const { title , media , thmbnail } = data
+        const { img , video } = media
         return(
            <React.Fragment>
                 <NavigationBar/>
                 <div className="contentArea">
+                    <div className="workPageCard">
                     <div className="workPageBox">
-                        <img src={imgpath} className="workPageThmbnail"/>
-                        { title }
+                        <img src={img[0]} className="workPageThmbnail"/>
+                        <div className="workPageTitle">
+                            { title }
+                        </div>
+                        </div>
                     </div>
                 </div>
            </React.Fragment>
