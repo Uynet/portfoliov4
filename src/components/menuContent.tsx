@@ -7,9 +7,6 @@ interface MenuProps{
     id:string
 }
 export class MenuContent extends React.Component<MenuProps>{
-    constructor(props){
-        super(props);
-    }
     render(){
         const page = location.href.split("/")[3]
         const isCurrentPage = page==this.props.id

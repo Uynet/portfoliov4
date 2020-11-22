@@ -3,7 +3,6 @@ import "../../../scss/index.scss"
 import "../../../scss/works.scss"
 import { NavigationBar } from "../navigationBar";
 import { RouteProps } from 'react-router';
-import contentData from"./contentData";
 
 export class WorkPage extends React.Component<RouteProps>{
     render(){
@@ -11,6 +10,7 @@ export class WorkPage extends React.Component<RouteProps>{
         return(
            <React.Fragment>
                 <NavigationBar/>
+                <img src="../resource/bg.png"/>
                 <div className="contentArea">
                     { id }
                 </div>

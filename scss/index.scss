@@ -20,20 +20,20 @@ a {
 
 @font-face {
   font-family: "MISHIMISHI-BLOCK";
-  src: url("./resource/font/MISHIMISHI-BLOCK.otf") format("opentype");
+  src: url("/resource/font/MISHIMISHI-BLOCK.otf") format("opentype");
 }
 
 .bg {
   height: 100vw;
   width: 100vw;
-  background-image: url("./resource/bg.png");
+  background-image: url("/resource/bg.png");
   background-size: cover;
   z-index: -1;
 }
 .header {
   height: 300px;
   width: 100vw;
-  background-image: url("./resource/bg.png");
+  background-image: url("/resource/bg.png");
   background-size: cover;
   z-index: -1;
 }
@@ -82,7 +82,7 @@ a {
   font-family: vdl-logona, sans-serif;
   font-weight: 900;
   background-size: contain;
-  background-image: url("./resource/contentBar.svg");
+  background-image: url("/resource/contentBar.svg");
   background-repeat: no-repeat;
 }
 
@@ -116,7 +116,7 @@ a {
 
   font-size: 1.9rem;
   font-weight: bold;
-  background-image: url("./resource/uychanHead.png");
+  background-image: url("/resource/uychanHead.png");
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
