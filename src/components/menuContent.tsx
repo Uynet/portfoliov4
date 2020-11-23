@@ -12,6 +12,7 @@ export class MenuContent extends React.Component<MenuProps>{
         const isCurrentPage = page==this.props.id
         const className = isCurrentPage? "navigationContentCurrent" : "navigationContent"
         const link = "/" + this.props.id
+        console.log(this.props)
 
         return(
            <React.Fragment>

@@ -1,3 +1,8 @@
+interface HyperLink {
+    name:string;
+    url:string
+}
+
 export interface ContentData{
     id:string;
     title:string;
@@ -9,8 +14,5 @@ export interface ContentData{
     }
     categoryTag?:string;
     description:string;
-    links?:{
-        name:string
-        url:string
-    }
+    links?:HyperLink[];
 }

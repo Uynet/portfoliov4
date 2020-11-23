@@ -40,10 +40,20 @@
   background-position: center;
   max-width: 100%;
 }
-.workPageTitle {
+
+.workInfo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 100%;
+  padding: 5%;
+}
+.workTitle {
   font-family: sans-serif;
-  padding: 0.5rem 0em;
+  font-size: 2rem;
   font-weight: 900;
+}
+.workDescription {
 }
 .workPageCard {
   background: #fff;

@@ -18,7 +18,13 @@ const contentData:ContentData[] = [
         media: {
             img : ["/resource/works/kawasemi2.png"]
         },
-        description:"アルバム"
+        description:"個人開発のゲームです。気が向いた時に作っています。JacaScript/PIXI.JS製 ブラウザで遊べます ",
+        links: [
+            {
+                name : "game",
+                url  : "http://uynet.work/saihate"
+            }
+        ]
     },
     {
         id:"ninja",
