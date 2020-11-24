@@ -4,6 +4,7 @@ import "../../../scss/works.scss"
 import { NavigationBar } from "../navigationBar";
 import { RouteProps } from 'react-router';
 import contentData from"./contentData";
+import { StringParser } from "./stringParser";
 
 export class WorkPage extends React.Component<RouteProps>{
     render(){
@@ -24,7 +25,7 @@ export class WorkPage extends React.Component<RouteProps>{
                                 { title }
                             </div>
                             <div className="workDescription">
-                                { description}
+                                <StringParser str={description}/>
                             </div>
                             {links && links.map((link,i)=>{
                                 return <a key={i} href={link.url} className="link"> {

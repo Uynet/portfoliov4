@@ -128,6 +128,23 @@ const contentData:ContentData[] = [
         ],
         categoryTag:[]
     },
+    {
+        id:"yure",
+        title:"ゆれ画像メーカー",
+        date:"2019",
+        thmbnail: "/resource/works/tips/yure.png",
+        media: {
+            video: ["/resource/works/tips/yure.mp4"]
+        },
+        description:"一時期流行った一発ネタ\n解説:黒い領域に頭などを入れて揺らすボタンを押すと首を振っているように見えます。画像ダウンロード機能付き",
+        links: [
+            {
+                name : "yure",
+                url  : "http://yure.uynet.trap.show",
+            }
+        ],
+        categoryTag:[]
+    },
 
 ]
 

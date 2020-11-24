@@ -11,23 +11,19 @@
 }
 .profileIcon {
   border-radius: 50%;
-  background: #fff;
   width: 250px;
   height: 250px;
-  background: #fff;
   transform: translate(0%, -50%);
   background-size: contain;
   border: 6px solid #fff;
-}
-.rect {
-  background: #444;
+  background: #fff;
 }
 .name {
   font-size: 34px;
   font-weight: 900;
   font-family: vdl-logona, sans-serif;
 }
-wrapper {
+.wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
