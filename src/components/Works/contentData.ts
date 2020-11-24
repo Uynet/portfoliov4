@@ -1,4 +1,4 @@
-import { ContentData } from "../../types";
+import { Category, ContentData } from "../../types";
 const contentData:ContentData[] = [
     {
         id:"stella",
@@ -8,7 +8,8 @@ const contentData:ContentData[] = [
         media: {
             img : ["/resource/works/stella.png"]
         },
-        description:"アルバム"
+        description:"アルバム",
+        categoryTag:[Category.Pickup , Category.Music]
     },
     {
         id:"kawasemi",
@@ -18,13 +19,14 @@ const contentData:ContentData[] = [
         media: {
             img : ["/resource/works/kawasemi2.png"]
         },
-        description:"個人開発のゲームです。気が向いた時に作っています。JacaScript/PIXI.JS製 ブラウザで遊べます ",
+        description:"気が向いた時に作っている個人開発ゲーム JacaScript/PIXI.JS製 ブラウザで遊べます",
         links: [
             {
                 name : "game",
                 url  : "http://uynet.work/saihate"
             }
-        ]
+        ],
+        categoryTag:[Category.Pickup , Category.Game]
     },
     {
         id:"ninja",
@@ -34,7 +36,8 @@ const contentData:ContentData[] = [
         media: {
             img : ["/resource/works/stella.png"]
         },
-        description:"アルバム"
+        description:"ゲム",
+        categoryTag:[Category.Game]
     },
     {
         id:"uyblog2",
@@ -44,13 +47,14 @@ const contentData:ContentData[] = [
         media: {
             img : ["/resource/works/portfolio.png"]
         },
-        description:"サイトの前のバージョンです。よく動いて面白いのでアートとして残すことにしました。就活用に作成したので主張が強いです。クリエータの公式サイトにしたかったのでリニューアルしました。フレームワーク:create-react-app",
+        description:"サイトの前のバージョン よく動いて面白いのですが、公式サイトとして運用したくなったのでおとなしい方向にリニューアルしました。面白いので残しています。ちなみにブログではない  フレームワーク:create-react-app",
         links: [
             {
                 name : "ゆいブログ",
                 url  : "http://uynet.work/"
             }
-        ]
+        ],
+        categoryTag:[]
     },
 ]
 

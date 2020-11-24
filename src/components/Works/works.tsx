@@ -5,11 +5,16 @@ import { NavigationBar } from "../navigationBar";
 import { WorkContent } from "./workContent";
 import contentData from"./contentData";
 import { CategoryContent } from "./categoryContent";
-import { Category } from "../../types";
+import { Category,ContentData } from "../../types";
 
-interface Props{
-
-}
+const categories = [
+     "Pickup",
+     "Game",
+     "Music",
+     "Others",
+     "All",
+]
+interface Props{ }
 interface States {
      focusedCategory :Category 
 }
@@ -19,13 +24,18 @@ export class Works extends React.Component<Props,States>{
           this.state = {
                focusedCategory : Category.Pickup
           }
+          this.handleClick = this.handleClick.bind(this);
+     }
+     handleClick(categoryName:string){
+          this.setState({focusedCategory:Category[categoryName]})
+          console.log(this.state)
+     }
+     categoryFilter(content:ContentData){
+          if(this.state.focusedCategory == Category.All)return true;
+          if(this.state.focusedCategory == Category.Others) return content.categoryTag.length == 0
+          return content.categoryTag.indexOf(this.state.focusedCategory)!== -1;
      }
      render(){
-          const categories = [
-              "Pickup",
-              "Game",
-              "Others"
-          ]
           return(
                <React.Fragment>
                <NavigationBar/>
@@ -45,13 +55,15 @@ export class Works extends React.Component<Props,States>{
                     {
                        categories.map((c,i) => {
                             const isFocused= (Category[c] == this.state.focusedCategory)
-                       return <CategoryContent key={i} category={c} isFocused={isFocused}/>
+                            return <CategoryContent key={i} categoryName={c} isFocused={isFocused} onClick={this.handleClick}/>
                        })
                     }
                </div>
                     <div className="contentAreaBox">
                     {
-                       contentData.map((data,i) => {
+                       contentData
+                         .filter(c=>this.categoryFilter(c))
+                         .map((data,i) => {
                             return <WorkContent key={i} data = {data}/>
                        })
                     }

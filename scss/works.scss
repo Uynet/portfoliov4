@@ -14,26 +14,23 @@
 .categoryBar {
   padding: 2em 0em;
 }
+.categoryContent:hover {
+  cursor: pointer;
+}
 .categoryContent {
   display: inline;
   font-size: 1.2em;
-  padding: 0em 1.2em;
+  padding: 0.5em 1.2em;
   width: 300px;
   position: relative;
   font-family: vdl-v7marugothic, sans-serif;
 }
 .focusedCategoryContent {
   color: #ff5084;
+  border-bottom: solid 4px #ff5084;
 }
 .categoryName {
   display: inline;
-}
-.categoryUnderline {
-  position: absolute;
-  margin-top: 4px;
-  width: 100%;
-  height: 4px;
-  background: #ff5084;
 }
 
 .workContentCard {

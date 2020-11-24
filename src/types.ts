@@ -1,7 +1,9 @@
 export enum Category {
      "Pickup",
      "Game",
-     "Others"
+     "Music",
+     "Others",
+     "All"
 }
 interface HyperLink {
     name:string;
@@ -16,7 +18,7 @@ export interface ContentData{
         img?:string[] | string
         video?:string[] | string
     }
-    categoryTag?:string;
+    categoryTag:Category[];
     description:string;
     links?:HyperLink[];
 }

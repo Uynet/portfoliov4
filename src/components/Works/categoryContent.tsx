@@ -1,8 +1,10 @@
 import * as React from "react"
+import { Category } from "../../types"
 
 interface Props {
-    category : string 
+    categoryName : string 
     isFocused : boolean
+    onClick : any
 }
 interface States{
     isFocused : boolean
@@ -15,14 +17,14 @@ export class CategoryContent extends React.Component<Props , States>{
         }
     }
     render(){
-        const { category } = this.props
+        const { categoryName,onClick,isFocused } = this.props
         let className ="categoryContent"
-        if(this.state.isFocused) className += " focusedCategoryContent"
+        if(isFocused) className += " focusedCategoryContent"
         return(
             <React.Fragment>
-                <div className={className}>
-                    <div className="categoryName"> {category} </div>
-                    {this.props.isFocused && <div className="categoryUnderline"></div>}
+                <div className={className} onClick={onClick.bind(this, categoryName)}>
+                    <div className="categoryName"> {categoryName} </div>
+                    {false && this.props.isFocused && <div className="categoryUnderline"></div>}
                 </div>
             </React.Fragment>
         )
