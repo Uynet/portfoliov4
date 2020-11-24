@@ -1,8 +1,12 @@
+export enum Category {
+     "Pickup",
+     "Game",
+     "Others"
+}
 interface HyperLink {
     name:string;
     url:string
 }
-
 export interface ContentData{
     id:string;
     title:string;

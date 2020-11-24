@@ -1,19 +1,25 @@
 .worksContentArea {
-  margin: 3em 3em;
+  margin: auto;
+  padding: 2rem;
+  max-width: 1200px;
 }
 
 .contentAreaBox {
   margin: auto;
-  max-width: 1200px;
   display: grid;
   gap: 2%;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
 
 .categoryBar {
-  background: #aaa;
-  grid-column-start: 1;
-  grid-column-end: 4;
+  padding: 2em;
+}
+.categoryContent {
+  display: inline;
+  padding: 0em 1.2em;
+}
+.focusedCategoryContent {
+  font-weight: bold;
 }
 
 .workContentCard {

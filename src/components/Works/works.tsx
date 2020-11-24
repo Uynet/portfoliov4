@@ -4,14 +4,30 @@ import "../../../scss/works.scss"
 import { NavigationBar } from "../navigationBar";
 import { WorkContent } from "./workContent";
 import contentData from"./contentData";
+import { CategoryContent } from "./categoryContent";
+import { Category } from "../../types";
 
-export class Works extends React.Component{
-    render(){
-         const categories = [
-              "pickup",
-         ]
-        return(
-           <React.Fragment>
+interface Props{
+
+}
+interface States {
+     focusedCategory :Category 
+}
+export class Works extends React.Component<Props,States>{
+     constructor(props){
+          super(props) 
+          this.state = {
+               focusedCategory : Category.Pickup
+          }
+     }
+     render(){
+          const categories = [
+              "Pickup",
+              "Game",
+              "Others"
+          ]
+          return(
+               <React.Fragment>
                <NavigationBar/>
                <div className="header"/>
                
@@ -24,6 +40,15 @@ export class Works extends React.Component{
                </div>
 
                <div className="worksContentArea">
+               <div className="categoryBar">
+
+                    {
+                       categories.map((c,i) => {
+                            const isFocused= (Category[c] == this.state.focusedCategory)
+                       return <CategoryContent key={i} category={c} isFocused={isFocused}/>
+                       })
+                    }
+               </div>
                     <div className="contentAreaBox">
                     {
                        contentData.map((data,i) => {
@@ -35,4 +60,3 @@ export class Works extends React.Component{
            </React.Fragment>)
     }
 }
-
