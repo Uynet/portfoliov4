@@ -14,7 +14,7 @@ export class Store extends React.Component{
                <div className="headline">
                     <div className="headlineContent">
                     <div className="contentHead">
-                        通販
+                        ストア
                     </div>
                     </div>
                </div>

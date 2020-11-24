@@ -8,8 +8,14 @@ const contentData:ContentData[] = [
         media: {
             img : ["/resource/works/stella.png"]
         },
-        description:"アルバム",
-        categoryTag:[Category.Pickup , Category.Music]
+        description:"初のインストソロアルバムです\n星がイメージのキラキラ楽曲7曲入です。いろんなところで買えます",
+        links: [
+            {
+                name : "linkcore",
+                url  : "https://linkco.re/vyh3Nz3R"
+            }
+        ],
+        categoryTag: [Category.Pickup , Category.Music]
     },
     {
         id:"kawasemi",
@@ -117,7 +123,7 @@ const contentData:ContentData[] = [
         date:"2019",
         thmbnail: "/resource/works/tips/sparkle.gif",
         media: {
-            img : ["/resource/works/tips/sparkle.mp4"]
+            video: ["/resource/works/tips/sparkle.mp4"]
         },
         description:"ゲームでよく使います",
         links: [
@@ -129,18 +135,46 @@ const contentData:ContentData[] = [
         categoryTag:[]
     },
     {
+        id:"hanabi",
+        title:"花火",
+        date:"2016",
+        thmbnail: "/resource/works/tips/hanabi.gif",
+        media: {
+            video: ["/resource/works/tips/hanabi.mp4"]
+        },
+        description:"ど～ん",
+        categoryTag:[]
+    },
+    {
         id:"yure",
         title:"ゆれ画像メーカー",
         date:"2019",
-        thmbnail: "/resource/works/tips/yure.png",
+        thmbnail: "/resource/works/tips/yure2.gif",
         media: {
-            video: ["/resource/works/tips/yure.mp4"]
+            img: ["/resource/works/tips/yure2.gif"]
         },
-        description:"一時期流行った一発ネタ\n解説:黒い領域に頭などを入れて揺らすボタンを押すと首を振っているように見えます。画像ダウンロード機能付き",
+        description:"アレです\n解説 : 黒い領域に頭などを入れて揺らすボタンを押すと首を振っているように見えます。画像ダウンロード機能付き",
         links: [
             {
                 name : "yure",
                 url  : "http://yure.uynet.trap.show",
+            }
+        ],
+        categoryTag:[]
+    },
+    {
+        id:"shelAnime",
+        title:"シェルアニメ",
+        date:"2019",
+        thmbnail: "/resource/works/tips/shelanime.gif",
+        media: {
+            img: ["/resource/works/tips/shelanime.gif"]
+        },
+        description:"シェルで動くとてもかわいい顔文字アニメです。\nnpm環境があればnpx poyopoyochanと打つと実行できます。ロード中表記などにどうぞ",
+        links: [
+            {
+                name : "٩(ˊᗜˋ*)｡",
+                url  : "https://github.com/Uynet/shelAnime",
             }
         ],
         categoryTag:[]

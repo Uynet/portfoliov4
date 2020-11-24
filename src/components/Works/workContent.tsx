@@ -10,13 +10,14 @@ interface WorkContentProps{
 
 export class WorkContent extends React.Component<WorkContentProps> {
     render(){
-        const {id , title , date , thmbnail: imgpath} = this.props.data
+        const {id , title , date , thmbnail: imgpath} = this.props.data;
+        const ext = imgpath.split(".")[1];
         return(
            <React.Fragment>
                <Link to={"works/"+id}>
                <div className="workContentCard">
                    <div className="workContentThmbnailWrapper">
-                   <div className="workContentThmbnail" style={{backgroundImage:"url("+imgpath+")"}}/>
+                        <div className="workContentThmbnail" style={{backgroundImage:"url("+imgpath+")"}}/>
                    </div>
                    <div className="workContentTitle">{title}</div>
                </div>
