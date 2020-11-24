@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 export class NavigationBar extends React.Component{
     render(){
         const menues = [
-            "profile",
-            "works", 
-            "store",
-            "contact",
+            "Profile",
+            "Works", 
+            "Store",
+            "Contact",
         ]
         return(
            <React.Fragment>

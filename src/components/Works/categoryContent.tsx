@@ -21,7 +21,8 @@ export class CategoryContent extends React.Component<Props , States>{
         return(
             <React.Fragment>
                 <div className={className}>
-                {category}
+                    <div className="categoryName"> {category} </div>
+                    {this.props.isFocused && <div className="categoryUnderline"></div>}
                 </div>
             </React.Fragment>
         )

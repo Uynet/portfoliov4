@@ -1,8 +1,10 @@
+$fontcolor: #200050;
+
 body {
   margin: 0;
   padding: 0;
   background: #fafafa;
-  color: #200050;
+  color: $fontcolor;
   scrollbar-width: none;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,7 +13,7 @@ body::-webkit-scrollbar {
 }
 a {
   text-decoration: none;
-  color: #200050;
+  color: $fontcolor;
 }
 .link {
   color: #2080a0;
@@ -122,4 +124,10 @@ a {
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
+}
+
+.contentArea {
+  background: #eee;
+  padding-top: 30px;
+  height: 100vh;
 }
