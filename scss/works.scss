@@ -79,10 +79,8 @@
 .workPageThmbnail {
   display: block;
   margin: auto;
-  max-height: 80vh;
-  background-size: cover;
-  background-position: center;
-  max-width: 100%;
+  object-fit: contain;
+  width: 100%;
 }
 
 .workInfo {

@@ -11,7 +11,6 @@ interface WorkContentProps{
 export class WorkContent extends React.Component<WorkContentProps> {
     render(){
         const {id , title , date , thmbnail: imgpath} = this.props.data
-        console.log(imgpath)
         return(
            <React.Fragment>
                <Link to={"works/"+id}>

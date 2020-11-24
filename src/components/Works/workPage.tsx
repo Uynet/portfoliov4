@@ -11,14 +11,14 @@ export class WorkPage extends React.Component<RouteProps>{
         const data = contentData.filter(e => (e.id === id))[0];
         const { title , media , links , description} = data
         const { img , video } = media
-        console.log(links)
         return(
            <React.Fragment>
                 <NavigationBar/>
                 <div className="contentArea">
                     <div className="workPageCard">
                     <div className="workPageBox">
-                        <img src={img[0]} className="workPageThmbnail"/>
+                        {img && <img src={img[0]} className="workPageThmbnail"/>}
+                        {video && <video src={video[0]} className="workPageThmbnail" loop autoPlay/>}
                         <div className="workInfo">
                             <div className="workTitle">
                                 { title }
@@ -26,8 +26,8 @@ export class WorkPage extends React.Component<RouteProps>{
                             <div className="workDescription">
                                 { description}
                             </div>
-                            {links && links.map(link=>{
-                                return <a href={link.url} className="link"> {
+                            {links && links.map((link,i)=>{
+                                return <a key={i} href={link.url} className="link"> {
                                     link.name
                                     } </a>
                                 

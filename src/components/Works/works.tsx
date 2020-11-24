@@ -44,7 +44,7 @@ export class Works extends React.Component<Props,States>{
                <div className="headline">
                     <div className="headlineContent">
                          <div className="contentHead">
-                              作品
+                             制作物 
                          </div>
                     </div>
                </div>
