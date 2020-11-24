@@ -39,10 +39,25 @@
   position: relative;
 }
 
-.workContentThmbnail {
+.workContentThmbnailWrapper {
+  position: relative;
+  overflow: hidden;
   width: 100%;
+}
+.workContentThmbnailWrapper:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.workContentThmbnail {
+  position: absolute;
   background-size: cover;
   background-position: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 .workContentThmbnail:hover {
   animation: onHover 0.1s;

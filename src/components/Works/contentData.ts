@@ -56,6 +56,23 @@ const contentData:ContentData[] = [
         ],
         categoryTag:[]
     },
+    {
+        id:"po",
+        title:"Polar Snow Fantasy",
+        date:"2016",
+        thmbnail: "/resource/works/po.png",
+        media: {
+            img : ["/resource/works/portfolio.png"]
+        },
+        description:"サイトの前のバージョン よく動いて面白いのですが、公式サイトとして運用したくなったのでおとなしい方向にリニューアルしました。面白いので残しています。ちなみにブログではない  フレームワーク:create-react-app",
+        links: [
+            {
+                name : "ゆいブログ",
+                url  : "http://uynet.work/"
+            }
+        ],
+        categoryTag:[]
+    },
 ]
 
 export default contentData;

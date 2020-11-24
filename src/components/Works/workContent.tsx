@@ -11,11 +11,14 @@ interface WorkContentProps{
 export class WorkContent extends React.Component<WorkContentProps> {
     render(){
         const {id , title , date , thmbnail: imgpath} = this.props.data
+        console.log(imgpath)
         return(
            <React.Fragment>
                <Link to={"works/"+id}>
                <div className="workContentCard">
-                   <img src={imgpath} className="workContentThmbnail"/>
+                   <div className="workContentThmbnailWrapper">
+                   <div className="workContentThmbnail" style={{backgroundImage:"url("+imgpath+")"}}/>
+                   </div>
                    <div className="workContentTitle">{title}</div>
                </div>
                </Link>
