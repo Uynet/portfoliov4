@@ -7,12 +7,13 @@ import contentData from"./contentData";
 
 export class Works extends React.Component{
     render(){
+         const categories = [
+              "pickup",
+         ]
         return(
            <React.Fragment>
                <NavigationBar/>
-               <div className="header">
-                    <div className="contentBar">Works</div>
-               </div>
+               <div className="header"/>
                
                <div className="headline">
                     <div className="headlineContent">
@@ -22,7 +23,7 @@ export class Works extends React.Component{
                     </div>
                </div>
 
-               <div className="contentArea">
+               <div className="worksContentArea">
                     <div className="contentAreaBox">
                     {
                        contentData.map((data,i) => {
@@ -34,3 +35,4 @@ export class Works extends React.Component{
            </React.Fragment>)
     }
 }
+

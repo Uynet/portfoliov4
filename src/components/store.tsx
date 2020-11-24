@@ -1,19 +1,20 @@
-import * as React from "react";
 import "../../scss/index.scss"
 import "../../scss/contact.scss"
 import { NavigationBar } from "./navigationBar";
+import * as React from "react";
 
-export class Contact extends React.Component{
+export class Store extends React.Component{
     render(){
         return(
            <React.Fragment>
                <NavigationBar/>
-               <div className="header"/>
+               <div className="header">
+               </div>
                
                <div className="headline">
                     <div className="headlineContent">
                     <div className="contentHead">
-                        お問い合わせ
+                        通販
                     </div>
                     </div>
                </div>
@@ -21,9 +22,8 @@ export class Contact extends React.Component{
                <div className="contentArea">
                     <div className="card">
                         <div className="wrapper">
-                            メールかTwitterにください
                             <div className="description">
-                                highsate☆gmail☁com
+                                準備中です...
                             </div>
                         </div>
                     </div>

@@ -26,7 +26,7 @@ export class WorkPage extends React.Component<RouteProps>{
                             <div className="workDescription">
                                 { description}
                             </div>
-                            {links.map(link=>{
+                            {links && links.map(link=>{
                                 return <a href={link.url} className="link"> {
                                     link.name
                                     } </a>

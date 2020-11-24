@@ -8,9 +8,7 @@ export class Profile extends React.Component{
         return(
            <React.Fragment>
                <NavigationBar/>
-               <div className="header">
-                    <div className="contentBar">Profile</div>
-               </div>
+               <div className="header"/>
                
                <div className="headline">
                <div className="headlineContent">

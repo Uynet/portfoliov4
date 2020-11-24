@@ -8,6 +8,7 @@ export class NavigationBar extends React.Component{
         const menues = [
             "profile",
             "works", 
+            "store",
             "contact",
         ]
         return(

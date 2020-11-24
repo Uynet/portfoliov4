@@ -42,9 +42,15 @@ const contentData:ContentData[] = [
         date:"2019/10/25",
         thmbnail: "/resource/works/portfolioThmb.png",
         media: {
-            img : ["/resource/works/stella.png"]
+            img : ["/resource/works/portfolio.png"]
         },
-        description:"アルバム"
+        description:"サイトの前のバージョンです。よく動いて面白いのでアートとして残すことにしました。就活用に作成したので主張が強いです。クリエータの公式サイトにしたかったのでリニューアルしました。フレームワーク:create-react-app",
+        links: [
+            {
+                name : "ゆいブログ",
+                url  : "http://uynet.work/"
+            }
+        ]
     },
 ]
 
