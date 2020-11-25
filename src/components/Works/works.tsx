@@ -18,7 +18,7 @@ const categoryDescription = [
      "代表作",
      "自分で作ったもの・制作に関わったゲームたち",
      "アルバム",
-     "ゴミ",
+     "いろいろ",
      "全部"
 ]
 interface Props{ }
@@ -35,7 +35,6 @@ export class Works extends React.Component<Props,States>{
      }
      handleClick(categoryName:string){
           this.setState({focusedCategory:Category[categoryName]})
-          console.log(this.state)
      }
      categoryFilter(content:ContentData){
           if(this.state.focusedCategory == Category.All)return true;

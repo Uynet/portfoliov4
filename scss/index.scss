@@ -43,43 +43,6 @@ a {
   z-index: -1;
   border: 1px solid #eee;
 }
-.navigationBar {
-  position: sticky;
-  top: 0px;
-  vertical-align: middle;
-  background: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 9px 0px;
-  z-index: 2;
-  border-bottom: solid 1px #ddd;
-}
-.navigationContent {
-  margin: 0px 9px;
-  font-size: 18px;
-  font-family: vdl-v7marugothic, sans-serif;
-  width: 3em;
-}
-.navigationContentCurrent {
-  margin: 0px 9px;
-  font-size: 18px;
-  font-family: vdl-v7marugothic, sans-serif;
-  color: #ff5084;
-  width: 3em;
-}
-.navigationContentBox {
-  margin-right: 45px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.navigationTop {
-  margin-left: 30px;
-  font-family: vdl-logona, sans-serif;
-  font-size: 18px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 .contentBar {
   font-size: 30px;

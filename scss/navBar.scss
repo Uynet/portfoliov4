@@ -1,0 +1,69 @@
+.navigationBarSp {
+  position: sticky;
+  top: 0px;
+  vertical-align: middle;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 9px 0px;
+  z-index: 2;
+  border-bottom: solid 1px #ddd;
+}
+
+.navigationBar {
+  position: sticky;
+  top: 0px;
+  vertical-align: middle;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 9px 0px;
+  z-index: 2;
+  border-bottom: solid 1px #ddd;
+}
+.navigationContent {
+  margin: 0px 9px;
+  font-size: 18px;
+  font-family: vdl-v7marugothic, sans-serif;
+  width: 3em;
+}
+.navigationContentCurrent {
+  margin: 0px 9px;
+  font-size: 18px;
+  font-family: vdl-v7marugothic, sans-serif;
+  color: #ff5084;
+  width: 3em;
+}
+.navigationContentBox {
+  margin-right: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navigationTop {
+  margin-left: 1.8em;
+  font-family: vdl-logona, sans-serif;
+  font-size: 1.2em;
+}
+.navigationTopSp {
+  text-align: center;
+  margin: auto;
+  font-family: vdl-logona, sans-serif;
+  font-size: 1.2em;
+}
+.navWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.hambar {
+  cursor: pointer;
+  z-index: 500;
+  grid-column-start: 4;
+  text-align: center;
+  margin: auto;
+  font-family: vdl-logona, sans-serif;
+  font-size: 18px;
+}
+.fabars {
+  margin: auto;
+}

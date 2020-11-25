@@ -27,6 +27,12 @@
   width: 300px;
   position: relative;
   font-family: vdl-v7marugothic, sans-serif;
+
+  // for visual
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .focusedCategoryContent {
   color: #ff5084;
