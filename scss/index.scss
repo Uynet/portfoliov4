@@ -34,10 +34,12 @@ a {
   z-index: -1;
 }
 .header {
-  height: 300px;
+  height: 18em;
+  min-width: 48em;
   width: 100vw;
   background-image: url("/resource/bg.png");
   background-size: cover;
+  background-position: 70% 0%;
   z-index: -1;
   border: 1px solid #eee;
 }
