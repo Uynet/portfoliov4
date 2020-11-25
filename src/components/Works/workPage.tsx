@@ -27,12 +27,14 @@ export class WorkPage extends React.Component<RouteProps>{
                             <div className="workDescription">
                                 <StringParser str={description}/>
                             </div>
+                            <div style={{paddingTop:20}}>
                             {links && links.map((link,i)=>{
-                                return <a key={i} href={link.url} className="link"> {
+                                return <a key={i} href={link.url} className="link worksOuterLink"> {
                                     link.name
                                     } </a>
                                 
                             })}
+                            </div>
                         </div>
                         </div>
                     </div>

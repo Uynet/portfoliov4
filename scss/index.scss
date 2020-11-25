@@ -26,10 +26,11 @@ a {
 }
 
 .bg {
-  height: 100vw;
+  height: 100vmax;
   width: 100vw;
   background-image: url("/resource/bg.png");
   background-size: cover;
+  background-position: 70% 0%;
   z-index: -1;
 }
 .header {

@@ -25,10 +25,10 @@ const contentData:ContentData[] = [
         media: {
             img : ["/resource/works/kawasemi2.png"]
         },
-        description:"気が向いた時に作っている個人開発ゲーム JacaScript/PIXI.JS製 ブラウザで遊べます",
+        description:"気が向いた時に作っている個人開発ゲーム(未完)\nJacaScript/PIXI.JS製なのでブラウザで遊べます。よく動くものが好きな人におすすめです。\nU22プログラミングコンテストというもので経済産業大臣賞を受賞しました",
         links: [
             {
-                name : "game",
+                name : "ゲーム",
                 url  : "http://uynet.work/saihate"
             }
         ],
@@ -40,9 +40,23 @@ const contentData:ContentData[] = [
         date:"2017/12/26",
         thmbnail: "/resource/works/ninjaThmb.png",
         media: {
-            img : ["/resource/works/stella.png"]
+            img : ["/resource/works/ninja.png","/resource/works/ninja2.png"]
         },
-        description:"ゲム",
+        description:"2Dスマホであそべるアクションゲームです。楽曲・効果音・一部のドット絵など作成しました。\nストアで配信されているので買ってください。\n2019年Google Indie GameFesというコンテストでTop10入賞しました",
+        links: [
+            {
+                name : "NinjaFlickerが完成しました - 東京工業大学デジタル創作同好会traP",
+                url  : "https://trap.jp/post/480/"
+            },
+            {
+                name:"iOS",
+                url: "https://apps.apple.com/jp/app/ninja-flicker/id1330300477"
+            },
+            {
+                name:"Android",
+                url: "https://play.google.com/store/apps/details?id=com.traP.ninjaflicker"
+            }
+        ],
         categoryTag:[Category.Pickup , Category.Game]
     },
     {

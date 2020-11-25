@@ -14,6 +14,13 @@ const categories = [
      "Others",
      "All",
 ]
+const categoryDescription = [
+     "代表作",
+     "自分で作ったもの・制作に関わったゲームたち",
+     "アルバム",
+     "ゴミ",
+     "全部"
+]
 interface Props{ }
 interface States {
      focusedCategory :Category 
@@ -59,6 +66,10 @@ export class Works extends React.Component<Props,States>{
                        })
                     }
                </div>
+               <div className="categoryDescription">
+                    {categoryDescription[this.state.focusedCategory]}
+               </div>
+               
                     <div className="contentAreaBox">
                     {
                        contentData
