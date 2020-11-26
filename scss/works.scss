@@ -165,3 +165,19 @@
   outline: none;
   background: transparent;
 }
+
+.footerContent {
+  padding-top: 4em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.links {
+}
+.backto {
+  text-align: right;
+  color: #999;
+}
+.backto:hover {
+  color: #666;
+}

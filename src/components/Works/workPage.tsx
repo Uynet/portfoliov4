@@ -6,6 +6,7 @@ import { RouteProps } from 'react-router';
 import contentData from"./contentData";
 import { StringParser } from "./stringParser";
 import { WorkPageCarousel } from "./workPageCarousel";
+import {Link} from "react-router-dom"
 
 export class WorkPage extends React.Component<RouteProps>{
     render(){
@@ -26,12 +27,18 @@ export class WorkPage extends React.Component<RouteProps>{
                             <div className="workDescription">
                                 <StringParser str={description}/>
                             </div>
-                            <div style={{paddingTop:20}}>
-                            {links && links.map((link,i)=>{
-                                return <a key={i} href={link.url} className="link worksOuterLink"> {
-                                    link.name
-                                    } </a>
-                            })}
+
+                            <div className="footerContent">
+                                <div className="links">
+                                    {links && links.map((link,i)=>{
+                                        return <a key={i} href={link.url} className="link worksOuterLink"> {
+                                            link.name
+                                        } </a>
+                                    })}
+                                </div>
+                                <Link to="/works"className="backto">
+                                    もどる
+                                </Link>
                             </div>
                         </div>
                         </div>
