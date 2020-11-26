@@ -1,10 +1,30 @@
+import Slider from "react-slick";
 import * as React from "react";
 import "../../../scss/index.scss";
 import "../../../scss/profile.scss";
 import { NavigationBar } from "../navigationBar";
 
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div />
+  );
+}
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div />
+  );
+}
 export class Profile extends React.Component{
     render(){
+        const settings = {
+            dots: true,
+            outline:"none",
+            infinite:false,
+            nextArrow: <SampleNextArrow />,
+            prevArrow: <SamplePrevArrow />
+        };
         return(
            <React.Fragment>
                <NavigationBar/>
@@ -47,7 +67,11 @@ export class Profile extends React.Component{
                                 <div className="credit">イラスト:<a href="http://owarino.xyz" className="link">やいぎ</a>先生</div>
                             </div>
                             <div className="fig">
-                                <img src="./resource/uychan1.png" width={"150px"}/>
+                                <Slider>
+                                    <div>
+                                        <img src="./resource/uychan1.png" width={"150px"}/>
+                                    </div>
+                                </Slider>
                             </div>
                         </div>
                     </div>

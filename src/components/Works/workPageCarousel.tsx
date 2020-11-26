@@ -9,13 +9,11 @@ interface Props{
     media:string[]
 } 
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
   return (
     <div />
   );
 }
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
   return (
     <div />
   );

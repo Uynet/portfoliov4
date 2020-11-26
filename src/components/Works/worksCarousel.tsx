@@ -8,32 +8,8 @@ import contentData from "./contentData";
 import { WorkContent } from "./workContent";
 import { Link } from "react-router-dom";
 
-interface Props{
-    media:string[]
-} 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div />
-  );
-}
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div />
-  );
-}
-
 export class WorksCarousel extends React.Component {
     render(){
-const settings = {
-    outline:"none",
-    infinite:false,
-    serslidesToShow: 4,
-    slidesToScroll:1, 
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
-};
         return(
             <React.Fragment>
                 <div className="worksCarousel">
