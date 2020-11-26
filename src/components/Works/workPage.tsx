@@ -7,6 +7,7 @@ import contentData from"./contentData";
 import { StringParser } from "./stringParser";
 import { WorkPageCarousel } from "./workPageCarousel";
 import {Link} from "react-router-dom"
+import { WorksCarousel } from "./worksCarousel";
 
 export class WorkPage extends React.Component<RouteProps>{
     render(){
@@ -41,6 +42,7 @@ export class WorkPage extends React.Component<RouteProps>{
                                 </Link>
                             </div>
                         </div>
+                        <WorksCarousel/>
                         </div>
                     </div>
                 </div>

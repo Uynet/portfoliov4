@@ -183,3 +183,12 @@
 .backto:hover {
   color: #666;
 }
+
+.worksCarouselContent {
+  background: #aaa;
+}
+
+.worksCarousel {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
