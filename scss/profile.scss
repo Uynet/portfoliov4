@@ -1,5 +1,5 @@
 .headlineContent {
-  min-width: 600px;
+  min-width: 30em;
   width: 80%;
   height: 100%;
   margin: auto;
@@ -7,12 +7,12 @@
   flex-direction: row;
 }
 .biographyArea {
-  padding-left: 30px;
+  padding-left: 3%;
 }
 .profileIcon {
   border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  width: min(15em, max(20vw, 10em));
+  height: min(15em, max(20vw, 10em));
   transform: translate(0%, -50%);
   background-size: contain;
   border: 6px solid #fff;
@@ -23,32 +23,38 @@
   font-weight: 900;
   font-family: vdl-logona, sans-serif;
 }
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-auto-rows: 100px;
-}
 .cardTitle {
   font-family: vdl-logona, sans-serif;
-  font-size: 34px;
+  font-size: max(1.4em, min(34px, 6vw));
   font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .cardTitleSub {
   font-family: vdl-logona, sans-serif;
-  font-size: 18px;
+  font-size: min(18px, 4vw);
+  white-space: nowrap;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 2em;
 }
 .fig {
-  margin: auto;
+  left: 0;
   grid-row-start: 1;
   grid-row-end: 3;
 }
 .description {
   grid-row-start: 1;
-  grid-row-end: 3;
-  position: relative;
+  grid-row-end: 2;
 }
-.credit {
-  position: absolute;
-  bottom: 0px;
+.cardContent {
+}
+.creditWrapper {
+  position: relative;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.creditText {
 }

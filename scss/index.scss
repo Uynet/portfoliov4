@@ -54,13 +54,13 @@ a {
   background-image: url("/resource/contentBar.svg");
   background-repeat: no-repeat;
 }
-
 .card {
   margin: auto;
   margin-bottom: 2em;
   padding: 1em 3em;
   border-radius: 15px;
   width: 60%;
+  max-width: 50em;
   background: #fff;
 }
 
