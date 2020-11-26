@@ -12,7 +12,6 @@ export class NavigationBar extends React.Component{
             "Profile",
             "Works", 
             "Store",
-            "Contact",
         ]
         return(
            <React.Fragment>

@@ -1,30 +1,10 @@
-import Slider from "react-slick";
 import * as React from "react";
 import "../../../scss/index.scss";
 import "../../../scss/profile.scss";
 import { NavigationBar } from "../navigationBar";
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div />
-  );
-}
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div />
-  );
-}
 export class Profile extends React.Component{
     render(){
-        const settings = {
-            dots: true,
-            outline:"none",
-            infinite:false,
-            nextArrow: <SampleNextArrow />,
-            prevArrow: <SamplePrevArrow />
-        };
         return(
            <React.Fragment>
                <NavigationBar/>
@@ -49,7 +29,7 @@ export class Profile extends React.Component{
                                 <div className="cardContent">
                                 <div> <a className="link" href="https://www.titech.ac.jp/news/2019/043553.html">U22プログラミングコンテスト経済産業大臣賞 (個人開発)</a> </div>
                                 <div> <a className="link" href="https://www.titech.ac.jp/news/2018/043127.html">Google Indie GameFestival 2019 Top10(チーム開発/サウンド)</a> </div>
-                                <div> <a className="link" href="https://chunithm-special.sega.jp/">第三回チュウニズム楽曲コンテスト七海あおい部門 / 最終候補</a> </div>
+                                <div> <a className="link" href="https://chunithm-special.sega.jp/">第三回チュウニズム楽曲コンテスト七海あおい部門 最終候補(作曲)</a> </div>
                             </div>
                             </div>
                         </div>
@@ -61,17 +41,28 @@ export class Profile extends React.Component{
                                 <span className="cardTitle">ゆいちゃん</span>
                                 <span className="cardTitleSub">について</span>
                                 <div className="cardContent">ドーナツが好き。
-                                14歳　性格が雑　よくスタバにいる
-                                <div> いつも輪郭線に色がついている。 </div>
                                 </div>
                                 <div className="credit">イラスト:<a href="http://owarino.xyz" className="link">やいぎ</a>先生</div>
                             </div>
                             <div className="fig">
-                                <Slider>
-                                    <div>
                                         <img src="./resource/uychan1.png" width={"150px"}/>
-                                    </div>
-                                </Slider>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card">
+                        <div> 
+                            <div className="description">
+                                <div className="cardTitle">お問い合わせ</div>
+                                楽曲の制作依頼などはこちらへ 
+                                <div className="cardContent">
+                                <div>  メール : highsate☆gmail.com</div> 
+                                <div>  Twitter : <a className="link" href="https://twitter.com/uynet">@uynet</a></div> 
+                                <br/>
+                                作品のご感想などは
+                                <a className="link" href="https://marshmallow-qa.com/uynet">マシュマロ</a>
+                                にいただけると大変うれしいです
+                            </div>
                             </div>
                         </div>
                     </div>

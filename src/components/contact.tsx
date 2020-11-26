@@ -20,11 +20,8 @@ export class Contact extends React.Component{
 
                <div className="contentArea">
                     <div className="card">
-                        <div className="wrapper">
-                            メールかTwitterにください
-                            <div className="description">
-                                highsate☆gmail☁com
-                            </div>
+                        <div>
+                            ご依頼・作品のご感想など気軽にいただけると嬉しいです
                         </div>
                     </div>
                 </div>

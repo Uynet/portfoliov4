@@ -1,7 +1,6 @@
 
 import * as React from "react";
 import "../../scss/index.scss"
-import { NavigationBar } from "./navigationBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars,faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Menubar } from "./menubar";

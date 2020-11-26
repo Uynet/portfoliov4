@@ -9,8 +9,7 @@ interface Props{
     media:string[]
 } 
 function SampleNextArrow(props) {
-  return (
-    <div />
+  return ( <div />
   );
 }
 function SamplePrevArrow(props) {

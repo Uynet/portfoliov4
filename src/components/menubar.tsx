@@ -25,7 +25,6 @@ export class Menubar extends React.Component <Props,States>{
       createMenu("Profile", "/profile"),
       createMenu("Works", "/works"),
       createMenu("Store", "/store"),
-      createMenu("Contact", "/contact")
     ];
     let className = "menubar"
     className += this.state.isOpen? " open":" open";

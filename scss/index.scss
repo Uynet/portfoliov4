@@ -106,3 +106,64 @@ a {
 .slick-next::before {
   font-size: 50px;
 }
+
+.hidebutton {
+  position: fixed;
+  top: 6em;
+  right: 2em;
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  background-image: url("/resource/favicon.png");
+  background-size: cover;
+  cursor: pointer;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.title {
+  position: absolute;
+  top: 6em;
+  left: 2em;
+  padding: 0.7em 1em;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  font-family: vdl-logona, sans-serif;
+  white-space: nowrap;
+}
+.titleLogo {
+  font-size: 3em;
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
+}
+.titleSubText {
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
+}
+.SNS {
+  background: #203050;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.snsIcon {
+  border-radius: 50%;
+  font-size: 2em;
+  color: #fff;
+  margin: 1em;
+  min-height: 150px;
+}
+
+.snsIcon:hover {
+  border-radius: 50%;
+  font-size: 2em;
+  color: #00faca;
+  margin: 1em;
+}
