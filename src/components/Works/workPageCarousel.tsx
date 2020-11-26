@@ -30,8 +30,13 @@ var settings = {
 export class WorkPageCarousel extends React.Component<Props> {
     render(){
         const media = this.props.media;
-        const img = media.filter(e=>e.split(".")[1]=="png")
-        const video = media.filter(e=>e.split(".")[1]=="mp4")
+        const img = media.filter(
+            e=>e.split(".")[1]=="png" ||
+            e.split(".")[1]=="gif" 
+        )
+        const video = media.filter(e=>
+            e.split(".")[1]=="mp4"
+        )
         const youtube = media.filter(e=>e.split(".")[1]=="youtube")
 
         return(
