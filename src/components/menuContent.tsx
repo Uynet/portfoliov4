@@ -9,9 +9,9 @@ interface MenuProps{
 export class MenuContent extends React.Component<MenuProps>{
     render(){
         const page = location.href.split("/")[3]
-        const isCurrentPage = page==this.props.id
+        const isCurrentPage = page.toLowerCase()==this.props.id.toLowerCase()
         const className = isCurrentPage? "navigationContentCurrent" : "navigationContent"
-        const link = "/" + this.props.id
+        const link = "/" + this.props.id.toLowerCase();
 
         return(
            <React.Fragment>
