@@ -14,7 +14,7 @@ export class WorkContent extends React.Component<WorkContentProps> {
         const ext = imgpath.split(".")[1];
         return(
            <React.Fragment>
-               <Link to={"works/"+id}>
+               <Link to={"/works/"+id}>
                <div className="workContentCard">
                    <div className="workContentThmbnailWrapper">
                         <div className="workContentThmbnail" style={{backgroundImage:"url("+imgpath+")"}}/>
