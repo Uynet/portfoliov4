@@ -6,7 +6,7 @@ const contentData:ContentData[] = [
         date:"2020/10/25",
         thmbnail: "/resource/works/stella.png",
         media: ["/resource/works/stella.png", "https://www.youtube.com/embed/Ky7hbqf4M0Q"],
-        description:"初のインストソロアルバムです\n星がイメージのキラキラ楽曲7曲入です。いろんなところで買えます",
+        description:"2020秋M3で初のインストソロアルバムをリリースしました。\n星がイメージのキラキラ楽曲7曲入です。いろんなところで買えます。よろしくおねがいします。",
         links: [
             {
                 name : "linkcore",
@@ -17,11 +17,11 @@ const contentData:ContentData[] = [
     },
     {
         id:"uymix",
-        title:"楽曲まとめ",
+        title:"楽曲まとめ動画",
         date:"2020/8/25",
         thmbnail: "/resource/works/uymix.png",
         media:["https://www.youtube.com/embed/5zuSD1l0fGU"] ,
-        description:"こんな曲つくってるよ～的な動画です。だいたいsoundcloudで聞けます。",
+        description:"こんな曲つくってるよ～的な動画です。だいたいsoundcloudで聞けます。Twitter用なので短いです。",
         categoryTag: [ Category.Music]
     },
     {
@@ -29,7 +29,7 @@ const contentData:ContentData[] = [
         title:"サイハテドロップ",
         date:"2018/3/25",
         thmbnail: "/resource/works/kawasemiThmb.png",
-        media: ["/resource/works/kawasemi2.png"] ,
+        media: ["/resource/works/kawasemi2.png" , "/resource/works/kawasemi4.png" , "/resource/works/boss.mp4"] ,
         description:"気が向いた時に作っている個人開発ゲーム(未完)\nJacaScript/PIXI.JS製なのでブラウザで遊べます。よく動くものが好きな人におすすめです。\nU22プログラミングコンテストというもので経済産業大臣賞を受賞しました",
         links: [
             {
@@ -74,8 +74,8 @@ const contentData:ContentData[] = [
         media: [
             "/resource/works/portfolio.png" ,
             "/resource/works/uyblog.mp4" 
-         ] ,
-        description:"サイトの前のバージョン よく動いて面白いのですが、公式サイトとして運用したくなったのでおとなしい方向にリニューアルしました。面白いので残しています。ちなみにブログではない  フレームワーク:create-react-app",
+        ] ,
+        description:"本サイトの前のバージョンです。\nよく動いて面白いのですが、公式サイトとして運用したくなったので落ち着いた方向にリニューアルしました。面白いのでアートとして残しています。ちなみにブログではない。\nこのころはゆいちゃんが自筆だった..",
         links: [
             {
                 name : "ゆいブログ",
@@ -94,30 +94,11 @@ const contentData:ContentData[] = [
         date:"2016",
         thmbnail: "/resource/works/po.png",
         media:  ["/resource/works/po.png"],
-        description:"大学時代にサークル活動で制作したゲームです。企画と全楽曲・効果音を制作しました",
+        description:"大学時代にサークル活動で制作したゲームです。企画と全楽曲・効果音を制作しました。雪合戦がモチーフのたのしいアクションシューティングです。",
         links: [
             {
                 name : "ポ",
                 url  : "https://trap.jp/post/35/"
-            }
-        ],
-        categoryTag:[Category.Game ]
-    },
-    {
-        id:"Flythm",
-        title:"Flythm",
-        date:"2018",
-        thmbnail: "/resource/works/Flythm.png",
-        media: ["/resource/works/Flythm.png"] ,
-        description:"ブラウザで音ゲーができます。2曲楽曲提供しました。",
-        links: [
-            {
-                name : "Flythm",
-                url  : "https://flythm.trap.games/"
-            },
-            {
-                name : "ゲーム記事",
-                url  : "https://trap.jp/post/693/"
             }
         ],
         categoryTag:[Category.Game ]

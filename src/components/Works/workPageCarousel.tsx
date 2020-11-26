@@ -51,7 +51,7 @@ export class WorkPageCarousel extends React.Component<Props> {
                                             <img src={m} className="workPageThmbnail"/>
                                     }
                                     {video.indexOf(m)!=-1 && 
-                                        <video src={m} className="workPageThmbnail" loop autoPlay/>
+                                        <video src={m} className="workPageThmbnail" controls/>
                                     }
                                     {youtube.indexOf(m)!=-1 && 
                                             <iframe className="youtubeFrame" title="youtube" src={m+"?rel=0"} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"/>

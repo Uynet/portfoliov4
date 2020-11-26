@@ -15,10 +15,10 @@ const categories = [
      "All",
 ]
 const categoryDescription = [
-     "代表作",
-     "自分で作ったもの・制作に関わったゲームたち",
-     "アルバム",
-     "いろいろ",
+     "おすすめ",
+     "自分で作ったもの・制作に関わったゲーム",
+     "音楽です。基本SoundCloudに上げてることが多いです。",
+     "雑多なもの",
      "全部"
 ]
 interface Props{ }
