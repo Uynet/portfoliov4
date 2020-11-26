@@ -14,11 +14,7 @@ export interface ContentData{
     title:string;
     date:string;
     thmbnail:string;
-    media:{
-        img?:string[] 
-        video?:string[] 
-        youtube?:string[]
-    }
+    media:string[];
     categoryTag:Category[];
     description:string;
     links?:HyperLink[];

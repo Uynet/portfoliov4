@@ -102,3 +102,6 @@ a {
 .slick-slide div {
   outline: none;
 }
+.slick-next::before {
+  font-size: 50px;
+}

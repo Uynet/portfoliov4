@@ -5,10 +5,7 @@ const contentData:ContentData[] = [
         title:"STELLA",
         date:"2020/10/25",
         thmbnail: "/resource/works/stella.png",
-        media: {
-            img : ["/resource/works/stella.png"],
-            youtube:["https://www.youtube.com/embed/Ky7hbqf4M0Q"]
-        },
+        media: ["/resource/works/stella.png", "https://www.youtube.com/embed/Ky7hbqf4M0Q"],
         description:"初のインストソロアルバムです\n星がイメージのキラキラ楽曲7曲入です。いろんなところで買えます",
         links: [
             {
@@ -23,9 +20,7 @@ const contentData:ContentData[] = [
         title:"楽曲まとめ",
         date:"2020/8/25",
         thmbnail: "/resource/works/uymix.png",
-        media: {
-            youtube:["https://www.youtube.com/embed/5zuSD1l0fGU"]
-        },
+        media:["https://www.youtube.com/embed/5zuSD1l0fGU"] ,
         description:"こんな曲つくってるよ～的な動画です。だいたいsoundcloudで聞けます。",
         categoryTag: [ Category.Music]
     },
@@ -34,9 +29,7 @@ const contentData:ContentData[] = [
         title:"サイハテドロップ",
         date:"2018/3/25",
         thmbnail: "/resource/works/kawasemiThmb.png",
-        media: {
-            img : ["/resource/works/kawasemi2.png"]
-        },
+        media: ["/resource/works/kawasemi2.png"] ,
         description:"気が向いた時に作っている個人開発ゲーム(未完)\nJacaScript/PIXI.JS製なのでブラウザで遊べます。よく動くものが好きな人におすすめです。\nU22プログラミングコンテストというもので経済産業大臣賞を受賞しました",
         links: [
             {
@@ -51,10 +44,11 @@ const contentData:ContentData[] = [
         title:"NinjaFlicker",
         date:"2017/12/26",
         thmbnail: "/resource/works/ninjaThmb.png",
-        media: {
-            img : ["/resource/works/ninja.png","/resource/works/ninja2.png"],
-            youtube : ["https://www.youtube.com/embed/ekiIBCfWgZs"]
-        },
+        media : [
+                "/resource/works/ninja.png",
+                "/resource/works/ninja2.png", 
+                "https://www.youtube.com/embed/ekiIBCfWgZs"
+                ],
         description:"2Dスマホであそべるアクションゲームです。楽曲・効果音・一部のドット絵など作成しました。\nストアで配信されているので買ってください。\n2019年Google Indie GameFesというコンテストでTop10入賞しました",
         links: [
             {
@@ -77,9 +71,7 @@ const contentData:ContentData[] = [
         title:"ゆいブログ(ver2)",
         date:"2019/10/25",
         thmbnail: "/resource/works/portfolioThmb.png",
-        media: {
-            img : ["/resource/works/portfolio.png"]
-        },
+        media: ["/resource/works/portfolio.png"] ,
         description:"サイトの前のバージョン よく動いて面白いのですが、公式サイトとして運用したくなったのでおとなしい方向にリニューアルしました。面白いので残しています。ちなみにブログではない  フレームワーク:create-react-app",
         links: [
             {
@@ -94,9 +86,7 @@ const contentData:ContentData[] = [
         title:"Polar Snow Fantasy",
         date:"2016",
         thmbnail: "/resource/works/po.png",
-        media: {
-            img : ["/resource/works/po.png"]
-        },
+        media:  ["/resource/works/po.png"],
         description:"大学時代にサークル活動で制作したゲームです。企画と全楽曲・効果音を制作しました",
         links: [
             {
@@ -111,9 +101,7 @@ const contentData:ContentData[] = [
         title:"Flythm",
         date:"2018",
         thmbnail: "/resource/works/Flythm.png",
-        media: {
-            img : ["/resource/works/Flythm.png"]
-        },
+        media: ["/resource/works/Flythm.png"] ,
         description:"ブラウザで音ゲーができます。2曲楽曲提供しました。",
         links: [
             {
@@ -132,9 +120,7 @@ const contentData:ContentData[] = [
         title:"Thunder(NEORT)",
         date:"2019",
         thmbnail: "/resource/works/tips/thunder.gif",
-        media: {
-            video: ["/resource/works/tips/thunder2.mp4"]
-        },
+        media: ["/resource/works/tips/thunder2.mp4"] ,
         description:"四角形だけで作ったエフェクト　NEORTでみれます",
         links: [
             {
@@ -149,9 +135,9 @@ const contentData:ContentData[] = [
         title:"Sparkle(NEORT)",
         date:"2019",
         thmbnail: "/resource/works/tips/sparkle.gif",
-        media: {
-            video: ["/resource/works/tips/sparkle.mp4"]
-        },
+        media:
+             ["/resource/works/tips/sparkle.mp4"]
+        ,
         description:"ゲームでよく使います",
         links: [
             {
@@ -166,9 +152,9 @@ const contentData:ContentData[] = [
         title:"花火",
         date:"2016",
         thmbnail: "/resource/works/tips/hanabi.gif",
-        media: {
-            video: ["/resource/works/tips/hanabi.mp4"]
-        },
+        media:
+             ["/resource/works/tips/hanabi.mp4"]
+        ,
         description:"ど～ん",
         categoryTag:[]
     },
@@ -177,9 +163,9 @@ const contentData:ContentData[] = [
         title:"ゆれ画像メーカー",
         date:"2019",
         thmbnail: "/resource/works/tips/yure2.gif",
-        media: {
-            img: ["/resource/works/tips/yure2.gif"]
-        },
+        media:
+             ["/resource/works/tips/yure2.gif"]
+        ,
         description:"アレです\n解説 : 黒い領域に頭などを入れて揺らすボタンを押すと首を振っているように見えます。画像ダウンロード機能付き",
         links: [
             {
@@ -194,9 +180,9 @@ const contentData:ContentData[] = [
         title:"シェルアニメ",
         date:"2019",
         thmbnail: "/resource/works/tips/shelanime.gif",
-        media: {
-            img: ["/resource/works/tips/shelanime.gif"]
-        },
+        media:
+             ["/resource/works/tips/shelanime.gif"]
+        ,
         description:"シェルで動くとてもかわいい顔文字アニメです。\nnpm環境があればnpx poyopoyochanと打つと実行できます。ロード中表記などにどうぞ",
         links: [
             {
