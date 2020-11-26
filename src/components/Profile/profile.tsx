@@ -15,13 +15,26 @@ export class Profile extends React.Component{
                    <img className="profileIcon" src="./resource/profileIcon.png" height="auto"></img>
                    <div className="biographyArea">
                         <div className="name">uynet</div>
-                        <div className="biography">1996/12/19生まれ。東京工業大学情報工学科卒業。曲作ったりゲーム作ったりデザインするなど活動は多岐に渡る。
+                        <div className="biography">1996/12/19生まれ。東京工業大学情報工学科卒業。曲作ったりゲーム作ったりいろいろするなど活動は多岐に渡る。
                         </div>
                     </div>
                </div>
                </div>
 
                <div className="contentArea">
+                    <div className="card">
+                        <div> 
+                            <div className="description">
+                                <span className="cardTitle">受賞等</span>
+                                <div className="cardContent">
+                                <div> <a className="link" href="https://www.titech.ac.jp/news/2019/043553.html">U22プログラミングコンテスト経済産業大臣賞 (個人開発)</a> </div>
+                                <div> <a className="link" href="https://www.titech.ac.jp/news/2018/043127.html">Google Indie GameFestival 2019 Top10(チーム開発/サウンド)</a> </div>
+                                <div> <a className="link" href="https://chunithm-special.sega.jp/">第三回チュウニズム楽曲コンテスト七海あおい部門 / 最終候補</a> </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="card">
                         <div className="wrapper">
                             <div className="description">

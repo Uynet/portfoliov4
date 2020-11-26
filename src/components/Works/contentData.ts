@@ -154,7 +154,7 @@ const contentData:ContentData[] = [
         media:
              ["/resource/works/tips/yure2.gif"]
         ,
-        description:"アレです\n解説 : 黒い領域に頭などを入れて揺らすボタンを押すと首を振っているように見えます。画像ダウンロード機能付き",
+        description:"アレです\n解説 : 黒い領域に頭などを入れて揺らすボタンを押すと首を振っているように見えます。画像ダウンロード機能もついており、大変便利です。",
         links: [
             {
                 name : "yure",
@@ -171,7 +171,7 @@ const contentData:ContentData[] = [
         media:
              ["/resource/works/tips/shelanime.gif"]
         ,
-        description:"シェルで動くとてもかわいい顔文字アニメです。\nnpm環境があればnpx poyopoyochanと打つと実行できます。ロード中表記などにどうぞ",
+        description:"シェルで動くとてもかわいい顔文字アニメです。\nnpm環境があればnpx poyopoyochanと打つと実行できます。ロード中表記などに使えて大変便利です。",
         links: [
             {
                 name : "٩(ˊᗜˋ*)｡",

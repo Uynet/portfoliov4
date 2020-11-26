@@ -7,18 +7,22 @@ import { Works } from "./Works/works";
 import { Contact } from "./contact";
 import { WorkPage } from "./Works/workPage";
 import { Store } from "./store";
+import ScrollToTop from './ScrollToTop';
+
 
 export class App extends React.Component{
     render(){
         return(
            <React.Fragment>
                 <Router>
+                   <ScrollToTop>
                     <Route exact path="/" component = {Home}/>
                     <Route exact path="/profile" component = {Profile}/>
                     <Route exact path="/works" component = {Works}/>
                     <Route path="/works/:work" component={WorkPage}/>
                     <Route exact path="/contact" component = {Contact}/>
                     <Route exact path="/store" component = {Store}/>
+                </ScrollToTop>
                 </Router>
            </React.Fragment>)
     }
