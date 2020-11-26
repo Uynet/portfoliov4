@@ -23,6 +23,7 @@ function SamplePrevArrow(props) {
 var settings = {
     dots: true,
     outline:"none",
+    infinite:false,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />
 };
@@ -45,19 +46,17 @@ export class WorkPageCarousel extends React.Component<Props> {
                     <Slider {...settings}>
                         {media.map((m,i)=>{
                             return  <React.Fragment key={i}>
+                                    <div className ="workPageThmbnailWrapper" >
                                     {img.indexOf(m)!=-1 && 
-                                        <div className ="workPageThmbnailWrapper" key={i}>
                                             <img src={m} className="workPageThmbnail"/>
-                                        </div>
                                     }
                                     {video.indexOf(m)!=-1 && 
                                         <video src={m} className="workPageThmbnail" loop autoPlay/>
                                     }
                                     {youtube.indexOf(m)!=-1 && 
-                                        <div className="workPageThmbnailWrapper">
-                                            <iframe className="youtubeFrame" title="youtube" src={m} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"/>
-                                        </div>
+                                            <iframe className="youtubeFrame" title="youtube" src={m+"?rel=0"} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"/>
                                     }
+                                    </div>
                                     </React.Fragment>
                         })}
                     </Slider>

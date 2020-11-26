@@ -52,7 +52,7 @@ const contentData:ContentData[] = [
         description:"2Dスマホであそべるアクションゲームです。楽曲・効果音・一部のドット絵など作成しました。\nストアで配信されているので買ってください。\n2019年Google Indie GameFesというコンテストでTop10入賞しました",
         links: [
             {
-                name : "NinjaFlickerが完成しました - 東京工業大学デジタル創作同好会traP",
+                name : "ブログ記事",
                 url  : "https://trap.jp/post/480/"
             },
             {
@@ -71,12 +71,19 @@ const contentData:ContentData[] = [
         title:"ゆいブログ(ver2)",
         date:"2019/10/25",
         thmbnail: "/resource/works/portfolioThmb.png",
-        media: ["/resource/works/portfolio.png"] ,
+        media: [
+            "/resource/works/portfolio.png" ,
+            "/resource/works/uyblog.mp4" 
+         ] ,
         description:"サイトの前のバージョン よく動いて面白いのですが、公式サイトとして運用したくなったのでおとなしい方向にリニューアルしました。面白いので残しています。ちなみにブログではない  フレームワーク:create-react-app",
         links: [
             {
                 name : "ゆいブログ",
                 url  : "http://uynet.work/v2"
+            },
+            {
+                name : "Github",
+                url  : "https://github.com/Uynet/portfoliov2"
             }
         ],
         categoryTag:[Category.Pickup]
