@@ -6,7 +6,8 @@ const contentData:ContentData[] = [
         date:"2020/10/25",
         thmbnail: "/resource/works/stella.png",
         media: {
-            img : ["/resource/works/stella.png"]
+            img : ["/resource/works/stella.png"],
+            youtube:["https://www.youtube.com/embed/Ky7hbqf4M0Q"]
         },
         description:"初のインストソロアルバムです\n星がイメージのキラキラ楽曲7曲入です。いろんなところで買えます",
         links: [
@@ -16,6 +17,17 @@ const contentData:ContentData[] = [
             }
         ],
         categoryTag: [Category.Pickup , Category.Music]
+    },
+    {
+        id:"uymix",
+        title:"楽曲まとめ",
+        date:"2020/8/25",
+        thmbnail: "/resource/works/uymix.png",
+        media: {
+            youtube:["https://www.youtube.com/embed/5zuSD1l0fGU"]
+        },
+        description:"こんな曲つくってるよ～的な動画です。だいたいsoundcloudで聞けます。",
+        categoryTag: [ Category.Music]
     },
     {
         id:"kawasemi",
@@ -40,7 +52,8 @@ const contentData:ContentData[] = [
         date:"2017/12/26",
         thmbnail: "/resource/works/ninjaThmb.png",
         media: {
-            img : ["/resource/works/ninja.png","/resource/works/ninja2.png"]
+            img : ["/resource/works/ninja.png","/resource/works/ninja2.png"],
+            youtube : ["https://www.youtube.com/embed/ekiIBCfWgZs"]
         },
         description:"2Dスマホであそべるアクションゲームです。楽曲・効果音・一部のドット絵など作成しました。\nストアで配信されているので買ってください。\n2019年Google Indie GameFesというコンテストでTop10入賞しました",
         links: [
