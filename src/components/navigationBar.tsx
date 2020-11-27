@@ -6,25 +6,19 @@ import { Link } from "react-router-dom";
 import MediaQuery from "react-responsive";
 import { Hambar } from "./hambar";
 
-export class NavigationBar extends React.Component{
-    render(){
-        const menues = [
-            "Profile",
-            "Works", 
-            "Store",
-        ]
-        return(
-           <React.Fragment>
-                <MediaQuery query="(max-width: 767px)">
+function BarSp(props) {
+  return ( 
                     <div className="navigationBarSp">
                         <Link to="/" style={{gridColumnStart:2}}>
                             <div className="navigationTopSp">uynet.work</div>
                         </Link>
                     <Hambar/>
-
                 </div>
-                </MediaQuery>
-                <MediaQuery query="(min-width: 768px)">
+  );
+}
+function BarPc(props) {
+    const menues = props.menues;
+  return ( 
                     <div className="navigationBar">
                         <Link to="/">
                             <div className="navigationTop">uynet.work</div>
@@ -37,7 +31,32 @@ export class NavigationBar extends React.Component{
                     }
                     </div>
                 </div>
+  );
+}
+
+export class NavigationBar extends React.Component{
+    render(){
+        const menues = [
+            "Profile",
+            "Works", 
+            "Store",
+        ]
+        const isSp = (navigator.userAgent.match(/iPhone|Android.+Mobile/) !== null)
+        return(
+           <React.Fragment>
+               {isSp && 
+                    <BarSp/>
+               }
+               { !isSp &&
+               <React.Fragment>
+                <MediaQuery query="(max-width: 767px)">
+                    <BarSp/>
                 </MediaQuery>
+                <MediaQuery query="(min-width: 768px)">
+                    <BarPc menues = {menues}/>
+                </MediaQuery>
+               </React.Fragment>
+               }
            </React.Fragment>
         )
     }
