@@ -46,7 +46,7 @@ export class Profile extends React.Component{
                                 </div>
                             </div>
                             <div className="fig">
-                                        <img src="./resource/uychan1.png" width={"150px"}/>
+                                        <img src="./resource/uychan1.png" className="uychan"/>
                             </div>
                             <div className="creditWrapper">
                                 <div className="creditText">

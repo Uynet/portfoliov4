@@ -1,5 +1,4 @@
 .headlineContent {
-  min-width: 30em;
   width: 80%;
   height: 100%;
   margin: auto;
@@ -11,8 +10,8 @@
 }
 .profileIcon {
   border-radius: 50%;
-  width: min(15em, max(20vw, 10em));
-  height: min(15em, max(20vw, 10em));
+  width: min(5em, max(20vw, 10em));
+  height: min(5em, max(20vw, 10em));
   transform: translate(0%, -50%);
   background-size: contain;
   border: 6px solid #fff;
@@ -42,8 +41,13 @@
 }
 .fig {
   left: 0;
+  display: flex;
+  align-items: center;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+.uychan {
+  width: 100%;
 }
 .description {
   grid-row-start: 1;
