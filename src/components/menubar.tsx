@@ -29,14 +29,19 @@ export class Menubar extends React.Component <Props,States>{
     let className = "menubar"
     className += this.state.isOpen? " open":" open";
 
+    const page = location.href.split("/")[3]
+
     return (
       <React.Fragment>
         <div className={ className } >
           <div className={"menuItemWrapper"}>
             { items.map((item, i) => {
+                const isCurrentPage = page.toLowerCase()==item.name.toLowerCase()
                 return (
                     <Link to={item.link} key={i}>
-                        <div className="menuItem">{item.name}</div>
+                        <div className="menuItem" style={{
+                          color:isCurrentPage?"#ff5084" : "#200050"
+                        }}>{item.name}</div>
                     </Link>
                 );
               })}
