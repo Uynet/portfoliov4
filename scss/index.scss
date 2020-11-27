@@ -34,10 +34,10 @@ a {
   z-index: -1;
 }
 .header {
-  height: 18em;
+  height: min(18em, 50vw);
   width: 100vw;
   overflow: hidden;
-  background-image: url("/resource/bg.png");
+  background-image: url("/resource/header.png");
   background-size: cover;
   background-position: 70% 0%;
   z-index: -1;
@@ -59,7 +59,7 @@ a {
   margin-bottom: 2em;
   padding: 1em min(2vh, 3em);
   border-radius: 15px;
-  width: (60%, 30em);
+  width: max(60%, 30em);
   max-width: 50em;
   background: #fff;
 }
