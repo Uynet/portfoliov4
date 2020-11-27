@@ -13,9 +13,9 @@ export class Store extends React.Component{
                
                <div className="headline">
                     <div className="headlineContent">
-                    <div className="contentHead">
-                        ストア
-                    </div>
+                        <div className="contentHead">
+                            ストア
+                        </div>
                     </div>
                </div>
 
@@ -23,7 +23,7 @@ export class Store extends React.Component{
                     <div className="card">
                         <div className="wrapper">
                             <div className="description">
-                                準備中です...
+                                準備中です
                             </div>
                         </div>
                     </div>

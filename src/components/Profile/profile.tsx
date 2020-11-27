@@ -25,14 +25,6 @@ export class Profile extends React.Component{
                     <div className="card">
                         <div> 
                             <div className="description">
-                                <span className="cardTitle">プロフィール</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card">
-                        <div> 
-                            <div className="description">
                                 <span className="cardTitle">受賞等</span>
                                 <div className="cardContent">
                                 <li> <a className="link" href="https://www.titech.ac.jp/news/2019/043553.html">U22プログラミングコンテスト経済産業大臣賞 (個人開発)</a> </li>
