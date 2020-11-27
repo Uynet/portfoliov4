@@ -25,6 +25,7 @@
   font-family: vdl-v7marugothic, sans-serif;
   flex-grow: 1;
   flex-shrink: 1;
+  border-bottom: solid 1px #ccc;
 
   // for visual
   -webkit-user-select: none;
@@ -193,5 +194,5 @@
 
 .worksCarousel {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 }
