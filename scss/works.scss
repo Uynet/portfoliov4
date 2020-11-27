@@ -7,32 +7,35 @@
 .contentAreaBox {
   margin: auto;
   display: grid;
-  gap: 2%;
+  gap: 0 2%;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
 
 .categoryBar {
-}
-.categoryDescription {
-  padding-top: 2em;
-  padding-bottom: 3em;
+  display: flex;
 }
 .categoryContent:hover {
   cursor: pointer;
 }
 .categoryContent {
   display: inline;
-  font-size: 1.2em;
-  padding: 0.5em 1.2em;
-  width: 300px;
+  text-align: center;
+  font-size: min(1.2em, 5vw);
   position: relative;
   font-family: vdl-v7marugothic, sans-serif;
+  flex-grow: 1;
+  flex-shrink: 1;
 
   // for visual
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.categoryDescription {
+  padding-top: 2em;
+  padding-bottom: 3em;
 }
 .focusedCategoryContent {
   color: #ff5084;
@@ -83,7 +86,7 @@
 .workContentTitle {
   font-family: sans-serif;
   font-weight: bold;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 .workPageThmbnailWrapper {
   width: 100%;
