@@ -10,12 +10,15 @@ export class Profile extends React.Component{
                <NavigationBar/>
                <div className="header"/>
                
-               <div className="headline">
-               <div className="headlineContent">
-                   <img className="profileIcon" src="./resource/profileIcon.png" height="auto"></img>
+               <div className="headlineProfile">
+               <div className="headlineContentProfile">
+                   <div className="profileIconWrapper">
+                        <img className="profileIcon" src="./resource/profileIcon.png" height="auto"></img>
+                   </div>
                    <div className="biographyArea">
                         <span className="name">uynet</span>
-                        <div className="biography">1996/12/19生まれ。東京工業大学情報工学科卒業。曲作ったりゲーム作ったりいろいろするなど活動は多岐に渡る。
+                        <span className="nameSubtext"> / ゆいねっと</span>
+                        <div className="biography">1996/12/19生まれ。東京工業大学情報工学科卒業。音楽を作ったりゲーム作ったりいろいろするなど活動は多岐に渡る。
                         </div>
                     </div>
                </div>
@@ -42,7 +45,8 @@ export class Profile extends React.Component{
                                 <span className="cardTitleMain">ゆいちゃん</span>
                                 <span className="cardTitleSub">について</span>
                             </div>
-                                <div className="cardContent">この子はゆいちゃんと言います。よろしくおねがいします。ドーナツが好き。
+                                <div className="cardContent">この子はゆいちゃんと言います。よろしくおねがいします。
+                                <br/>ドーナツが好き。
                                 </div>
                             </div>
                             <div className="fig">
