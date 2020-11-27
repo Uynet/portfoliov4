@@ -49,14 +49,8 @@ export class NavigationBar extends React.Component{
             "Works", 
             "Store",
         ]
-        const isSp = (navigator.userAgent.match(/iPhone|Android.+Mobile/) !== null)
-        console.log(isSp)
         return(
            <React.Fragment>
-               {isSp && 
-                    <BarSp/>
-               }
-               { !isSp &&
                <React.Fragment>
                 <MediaQuery query="(max-width: 767px)">
                     <BarSp/>
@@ -65,7 +59,6 @@ export class NavigationBar extends React.Component{
                     <BarPc menues = {menues}/>
                 </MediaQuery>
                </React.Fragment>
-               }
            </React.Fragment>
         )
     }

@@ -57,9 +57,9 @@ a {
 .card {
   margin: auto;
   margin-bottom: 2em;
-  padding: 1em 3em;
+  padding: 1em min(2vh, 3em);
   border-radius: 15px;
-  width: 60%;
+  width: max(60%, 30em);
   max-width: 50em;
   background: #fff;
 }
@@ -94,6 +94,7 @@ a {
 }
 
 .contentArea {
+  width: 100vw;
   background: #eee;
   padding-top: 3em;
   padding-bottom: 3em;
