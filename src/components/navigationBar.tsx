@@ -9,10 +9,10 @@ import { Hambar } from "./hambar";
 function BarSp(props) {
   return ( 
                     <div className="navigationBarSp">
+                    <Hambar/>
                         <Link to="/" style={{gridColumnStart:2}}>
                             <div className="navigationTopSp">uynet.work</div>
                         </Link>
-                    <Hambar/>
                 </div>
   );
 }

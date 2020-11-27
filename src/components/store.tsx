@@ -21,11 +21,9 @@ export class Store extends React.Component{
 
                <div className="contentArea">
                     <div className="card">
-                        <div className="wrapper">
                             <div className="description">
                                 準備中です
                             </div>
-                        </div>
                     </div>
                 </div>
            </React.Fragment>)
