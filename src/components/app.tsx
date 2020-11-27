@@ -8,6 +8,7 @@ import { Contact } from "./contact";
 import { WorkPage } from "./Works/workPage";
 import { Store } from "./store";
 import { Footer } from "./footer";
+import ScrollToTop from "./scrollToTop";
 
 
 export class App extends React.Component{
@@ -15,12 +16,14 @@ export class App extends React.Component{
         return(
            <React.Fragment>
                 <Router>
+                    <ScrollToTop>
                     <Route exact path="/" component = {Home}/>
                     <Route exact path="/profile" component = {Profile}/>
                     <Route exact path="/works" component = {Works}/>
                     <Route path="/works/:work" component={WorkPage}/>
                     <Route exact path="/contact" component = {Contact}/>
                     <Route exact path="/store" component = {Store}/>
+                    </ScrollToTop>
                 </Router>
                 <Footer/>
            </React.Fragment>)
