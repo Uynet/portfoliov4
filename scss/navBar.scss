@@ -52,11 +52,12 @@
 }
 .navWrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 5fr;
+  grid-template-columns: 0.5fr 2fr 5fr;
 }
 .hambar {
   cursor: pointer;
   font-size: 18px;
+  width: 100%;
   z-index: 500;
   grid-column-start: 2;
   text-align: center;
