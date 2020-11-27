@@ -34,7 +34,15 @@ function BarPc(props) {
   );
 }
 
+
 export class NavigationBar extends React.Component{
+    constructor(props){
+        super(props)
+        this.render.bind(this);
+        window.addEventListener("resize" , e=>{
+            this.render();
+        })
+    }
     render(){
         const menues = [
             "Profile",
@@ -42,6 +50,7 @@ export class NavigationBar extends React.Component{
             "Store",
         ]
         const isSp = (navigator.userAgent.match(/iPhone|Android.+Mobile/) !== null)
+        console.log(isSp)
         return(
            <React.Fragment>
                {isSp && 

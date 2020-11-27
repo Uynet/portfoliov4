@@ -1,4 +1,6 @@
 .navigationBarSp {
+  font-size: 1.2em;
+  align-items: center;
   position: sticky;
   top: 0px;
   vertical-align: middle;
@@ -11,6 +13,7 @@
 }
 
 .navigationBar {
+  font-size: 1.2em;
   position: sticky;
   top: 0px;
   vertical-align: middle;
@@ -23,13 +26,11 @@
 }
 .navigationContent {
   margin: 0px 9px;
-  font-size: 18px;
   font-family: vdl-v7marugothic, sans-serif;
   width: 3em;
 }
 .navigationContentCurrent {
   margin: 0px 9px;
-  font-size: 18px;
   font-family: vdl-v7marugothic, sans-serif;
   color: #ff5084;
   width: 3em;
@@ -43,13 +44,11 @@
 .navigationTop {
   margin-left: 1.8em;
   font-family: vdl-logona, sans-serif;
-  font-size: 1.2em;
 }
 .navigationTopSp {
   text-align: center;
   margin: auto;
   font-family: vdl-logona, sans-serif;
-  font-size: 1.2em;
 }
 .navWrapper {
   display: grid;
@@ -57,12 +56,12 @@
 }
 .hambar {
   cursor: pointer;
+  font-size: 18px;
   z-index: 500;
   grid-column-start: 4;
   text-align: center;
   margin: auto;
   font-family: vdl-logona, sans-serif;
-  font-size: 18px;
 }
 .fabars {
   margin: auto;
