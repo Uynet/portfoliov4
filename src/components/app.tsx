@@ -7,7 +7,7 @@ import { Works } from "./Works/works";
 import { Contact } from "./contact";
 import { WorkPage } from "./Works/workPage";
 import { Store } from "./store";
-import ScrollToTop from "./scrollToTop";
+import ScrollToTop from "./ScrollToTop";
 import { Footer } from "./footer";
 
 export class App extends React.Component{
