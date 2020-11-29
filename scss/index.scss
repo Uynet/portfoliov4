@@ -36,13 +36,12 @@ a {
 }
 .header {
   height: min(18em, 50vw);
-  width: 100vw;
-  overflow: hidden;
   background-image: url("/resource/header.png");
   background-size: cover;
   background-position: 70% 0%;
   z-index: -1;
-  border: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
 }
 
 .contentBar {
@@ -63,9 +62,7 @@ a {
   width: min(80%, 40em);
   background: #fff;
 }
-
 .headline {
-  position: relative;
   background: #fff;
   height: 150px;
   border-bottom: 1px solid #eee;
