@@ -93,7 +93,11 @@ const contentData:ContentData[] = [
         title:"Polar Snow Fantasy",
         date:"2016",
         thmbnail: "/resource/works/po.png",
-        media:  ["/resource/works/po.png"],
+        media:  [
+                    "/resource/works/po.png",
+                    "/resource/works/po2.png",
+                    "/resource/works/po3.png",
+                ],
         description:"大学時代にサークル活動で制作したゲームです。企画と全楽曲・効果音を制作しました。雪合戦がモチーフのたのしいアクションシューティングです。",
         links: [
             {
