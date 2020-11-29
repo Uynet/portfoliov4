@@ -1,7 +1,6 @@
 $fontcolor: #200050;
 
 body {
-  overflow: hidden;
   margin: 0;
   padding: 0;
   background: #fafafa;
@@ -36,6 +35,7 @@ a {
 }
 .header {
   height: min(18em, 50vw);
+  overflow: hidden;
   background-image: url("/resource/header.png");
   background-size: cover;
   background-position: 70% 0%;
