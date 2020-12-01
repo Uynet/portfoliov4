@@ -22,7 +22,7 @@ export class Store extends React.Component{
                <div className="contentArea">
                     <div className="card">
                             <div className="description">
-                                <a href="https://uynet.booth.pm/">BOOTH</a>はこちら
+                                <a className="link" href="https://uynet.booth.pm/">BOOTH</a>はこちら
                             </div>
                     </div>
                 </div>

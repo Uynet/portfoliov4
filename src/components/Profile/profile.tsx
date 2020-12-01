@@ -66,7 +66,7 @@ export class Profile extends React.Component{
                                 <div className="cardTitle">お問い合わせ</div>
                                 楽曲の制作依頼などはこちらへ 
                                 <div className="cardContent">
-                                <div>  メール : highsate☆gmail.com</div> 
+                                <div>  メール : contact☆uynet.work</div> 
                                 <div>  Twitter : <a className="link" href="https://twitter.com/uynet">@uynet</a></div> 
                                 <br/>
                                 作品のご感想などは
