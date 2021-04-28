@@ -1,6 +1,25 @@
 import { Category, ContentData } from "../../types";
 const contentData:ContentData[] = [
     {
+        id:"LaGardeni",
+        title:"LA GARDENIA",
+        date:"2020/10/25",
+        thmbnail: "/resource/works/LaGardenia.png",
+        media: ["/resource/works/LaGardenia.png", "https://www.youtube.com/embed/lkD4EK1qUFI"],
+        description:"2021春M3にて頒布、「楽園」がテーマのアルバム第二弾。合作ありです。かっこいい特設サイトも作ったので見てね！BOOTHで販売中(物理版¥1000)",
+        links: [
+            {
+                name : "特設サイト",
+                url  : "https://lagardenia.uynet.work"
+            },
+            {
+                name : "BOOTH",
+                url  : "https://uynet.booth.pm/items/2921546"
+            }
+        ],
+        categoryTag: [Category.Pickup , Category.Music]
+    },
+    {
         id:"stella",
         title:"STELLA",
         date:"2020/10/25",

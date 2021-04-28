@@ -3,7 +3,7 @@
     "build": "webpack",
     "watch": "webpack -w",
     "lint": "eslint 'src/**/*.ts'",
-    "serve": "npx webpack-dev-server"
+    "serve": "webpack-dev-server"
   },
   "devDependencies": {
     "css-loader": "^4.3.0",
