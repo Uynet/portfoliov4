@@ -1,7 +1,7 @@
 import { Category, ContentData } from "../../types";
 const contentData:ContentData[] = [
     {
-        id:"LaGardeni",
+        id:"LaGardenia",
         title:"LA GARDENIA",
         date:"2020/10/25",
         thmbnail: "/resource/works/LaGardenia.png",
@@ -32,7 +32,22 @@ const contentData:ContentData[] = [
                 url  : "https://linkco.re/vyh3Nz3R"
             }
         ],
-        categoryTag: [Category.Pickup , Category.Music]
+        categoryTag: [ Category.Music]
+    },
+    {
+        id:"GensinShader",
+        title:"原神の海みたいなシェーダ",
+        date:"2021/2/09",
+        thmbnail: "/resource/works/gensin_sea.png",
+        media: ["/resource/works/gensin_sea.gif"],
+        description:"綺麗だったので、シェーダー書くか～ってなって作りました。板2枚からできてて、プロシージャルに法線マップを作ってそれっぽくしています。Qiitaでトレンド1位になりました。詳細は記事参照",
+        categoryTag: [ Category.Pickup],
+        links: [
+            {
+                name : "Qiita",
+                url  : "https://qiita.com/uynet/items/f8b087d47f5cf316eb7e"
+            }
+        ],
     },
     {
         id:"uymix",
@@ -105,7 +120,7 @@ const contentData:ContentData[] = [
                 url  : "https://github.com/Uynet/portfoliov2"
             }
         ],
-        categoryTag:[Category.Pickup]
+        categoryTag:[]
     },
     {
         id:"po",
