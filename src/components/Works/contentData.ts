@@ -3,7 +3,7 @@ const contentData:ContentData[] = [
     {
         id:"LaGardenia",
         title:"LA GARDENIA",
-        date:"2020/10/25",
+        date:"2020/4/25",
         thmbnail: "/resource/works/LaGardenia.png",
         media: ["/resource/works/LaGardenia.png", "https://www.youtube.com/embed/lkD4EK1qUFI"],
         description:"2021春M3にて頒布、「楽園」がテーマのアルバム第二弾。合作ありです。かっこいい特設サイトも作ったので見てね！BOOTHで販売中(物理版¥1000)",
@@ -22,7 +22,7 @@ const contentData:ContentData[] = [
     {
         id:"stella",
         title:"STELLA",
-        date:"2020/10/25",
+        date:"2021/10/25",
         thmbnail: "/resource/works/stella.png",
         media: ["/resource/works/stella.png", "https://www.youtube.com/embed/Ky7hbqf4M0Q"],
         description:"2020秋M3で初のインストソロアルバムをリリースしました。\n星がイメージのキラキラ楽曲7曲入です。いろんなところで買えます。よろしくおねがいします。",
