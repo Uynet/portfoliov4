@@ -2,24 +2,31 @@ import * as React from "react";
 import "../../scss/index.scss";
 import { Link } from "react-router-dom";
 
-interface MenuProps{
-    key:string,
-    id:string
+interface MenuProps {
+  item: any;
+  key: any;
 }
-export class MenuContent extends React.Component<MenuProps>{
-    render(){
-        const page = location.href.split("/")[3]
-        const isCurrentPage = page.toLowerCase()==this.props.id.toLowerCase()
-        const className = isCurrentPage? "navigationContentCurrent" : "navigationContent"
-        const link = "/" + this.props.id.toLowerCase();
+export class MenuContent extends React.Component<MenuProps> {
+  render() {
+    const { name, link } = this.props.item;
 
-        return(
-           <React.Fragment>
-                <Link to = {link}>
-                    <div className={className}>
-                        {this.props.id}
-                    </div>
-                </Link>
-           </React.Fragment>)
-    }
+    const page = location.href.split("/")[3];
+    const isCurrentPage = page.toLowerCase() == name.toLowerCase();
+    const className = isCurrentPage ? "navigationContentCurrent" : "navigationContent";
+
+    return (
+      <React.Fragment>
+        {/* because outer link : No good.. */}
+        {name == "Store" ? (
+          <a href={link}>
+            <div className={className}>{name}</div>
+          </a>
+        ) : (
+          <Link to={link}>
+            <div className={className}>{name}</div>
+          </Link>
+        )}
+      </React.Fragment>
+    );
+  }
 }
