@@ -165,3 +165,20 @@ a {
   color: #00faca;
   margin: 1em;
 }
+.linkItemLink {
+  display: inline-block;
+}
+.linkItem {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 5px;
+}
+.linkItem:hover {
+  background: #eee;
+}
+.linkItemIcon {
+  width: 2em;
+  height: 2em;
+  margin-right: 5px;
+}

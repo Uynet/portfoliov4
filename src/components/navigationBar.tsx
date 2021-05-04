@@ -48,6 +48,7 @@ export class NavigationBar extends React.Component {
     const items = [
       createMenu("Profile", "/profile"),
       createMenu("Works", "/works"),
+      createMenu("Links", "/links"),
       createMenu("Store", "https://uynet.booth.pm/"),
     ];
     return (
