@@ -173,9 +173,10 @@ a {
   align-items: center;
   margin: auto;
   padding: 5px;
+  border: solid 3px #fff;
 }
 .linkItem:hover {
-  background: #eee;
+  border: dashed 3px #dadada;
 }
 .linkItemIcon {
   width: 2em;
